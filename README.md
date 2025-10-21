@@ -1,6 +1,6 @@
 # Unitree Go2 入门项目  
 
-本项目适合零基础接触 Unitree Go2 的同学，耗时约2个月，难度适中，可帮助快速掌握机器狗 ROS2 开发基础。  
+本项目适合有一定基础接触 Unitree Go2 的同学，可以投入约2个月，难度适中，可帮助快速掌握机器狗 ROS2 开发基础。  
 b站地址：https://www.bilibili.com/video/BV1caWQzdE3G/?spm_id_from=333.337.search-card.all.click&vd_source=4bd0448ccc277efab1a6915315abd6b9
 
 
