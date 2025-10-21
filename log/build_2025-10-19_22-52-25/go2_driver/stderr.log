@@ -1,0 +1,11 @@
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/footprint_to_link.cpp:[m[K In member function ‘[01m[Kvoid TFDynamicBroadcaster::timer_cb()[m[K’:
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/footprint_to_link.cpp:147:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  147 |         [01;31m[Ktf2[m[K::Quaternion quat;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/footprint_to_link.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat[m[K’ was not declared in this scope; did you mean ‘[01m[Kquad_t[m[K’?
+  148 |         [01;31m[Kquat[m[K.setRPY(0.0, 0.0, current_yaw_);
+      |         [01;31m[K^~~~[m[K
+      |         [32m[Kquad_t[m[K
+gmake[2]: *** [CMakeFiles/footprint_to_link.dir/build.make:76：CMakeFiles/footprint_to_link.dir/src/footprint_to_link.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:167：CMakeFiles/footprint_to_link.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

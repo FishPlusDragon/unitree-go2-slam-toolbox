@@ -1,0 +1,82 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)
+-- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found tf2_sensor_msgs: 0.25.15 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/robot/go2_ws_toolbox/src/go2_perception/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_perception
+[ 50%] [32mBuilding CXX object CMakeFiles/cloud_accumulation.dir/src/cloud_accumulation.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[ 66%] Built target pointcloud_to_laserscan_node
+[ 83%] [32m[1mLinking CXX executable cloud_accumulation[0m
+[ 83%] Built target cloud_accumulation
+[100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[100%] Built target pointcloud_to_laserscan
+-- Install configuration: ""
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+-- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node" to ""
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so
+-- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so" to ""
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation
+-- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation" to ""
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch/go2_pointcloud.launch.py
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.sh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.bash
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.sh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.zsh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.xml

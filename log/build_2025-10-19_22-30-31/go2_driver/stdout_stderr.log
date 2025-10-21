@@ -1,0 +1,10 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o[0m
+[ 50%] Built target footprint_to_link
+[ 83%] Built target driver
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.h: 没有那个文件或目录
+    7 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/lowstate_to_imu.dir/build.make:76：CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/lowstate_to_imu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

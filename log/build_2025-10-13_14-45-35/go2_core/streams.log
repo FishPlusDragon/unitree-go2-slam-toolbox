@@ -1,0 +1,10 @@
+[0.026s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[0.313s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:203:66:[m[K [01;31m[Kerror: [m[Kstray ‘[01m[K`[m[K’ in program
+[0.313s]   203 |         transform.transform.rotation.x = msg->pose.orientation.x;[01;31m[K`[m[K
+[0.313s]       |                                                                  [01;31m[K^[m[K
+[10.385s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+[10.385s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+[10.386s] gmake: *** [Makefile:146：all] 错误 2
+[10.388s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16

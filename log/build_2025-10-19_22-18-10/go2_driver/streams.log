@@ -1,0 +1,12 @@
+[0.029s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[0.089s] [ 33%] Built target driver
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o[0m
+[0.090s] [ 83%] Built target footprint_to_link
+[2.134s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:[m[K In member function ‘[01m[Kvoid LowStateToImuNode::lowstate_callback(unitree_go::msg::LowState_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.134s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:70:38:[m[K [01;31m[Kerror: [m[K‘[01m[KtoMsg[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+[2.134s]    70 |         tf.transform.rotation = tf2::[01;31m[KtoMsg[m[K(tf2::Quaternion::getIdentity());
+[2.135s]       |                                      [01;31m[K^~~~~[m[K
+[4.364s] gmake[2]: *** [CMakeFiles/lowstate_to_imu.dir/build.make:76：CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o] 错误 1
+[4.364s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/lowstate_to_imu.dir/all] 错误 2
+[4.364s] gmake: *** [Makefile:146：all] 错误 2
+[4.368s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16

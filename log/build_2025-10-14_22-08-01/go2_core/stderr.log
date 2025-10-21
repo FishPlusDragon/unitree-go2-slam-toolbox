@@ -1,0 +1,11 @@
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:[m[K In member function ‘[01m[Kvoid Go2Driver::publish_joint_states()[m[K’:
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:392:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing LowState = struct unitree_go::msg::LowState_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_go::msg::LowState_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’; did you mean ‘[01m[Khead[m[K’?
+  392 |         joint_msg.header.stamp = latest_low_state_.[01;31m[Kheader[m[K.stamp;
+      |                                                    [01;31m[K^~~~~~[m[K
+      |                                                    [32m[Khead[m[K
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:403:41:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct unitree_go::msg::MotorState_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ktau[m[K’
+  403 |             joint_msg.effort[i] = motor.[01;31m[Ktau[m[K;
+      |                                         [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

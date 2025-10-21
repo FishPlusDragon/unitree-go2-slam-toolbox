@@ -1,0 +1,544 @@
+[0.077s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.077s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x789a5cb55ba0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x789a5cb55690>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x789a5cb55690>>)
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/robot/go2_ws_toolbox'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.219s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'ros'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['cmake', 'python']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'cmake'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'python'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extensions ['python_setup_py']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base) by extension 'python_setup_py'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extensions ['ignore', 'ignore_ament_install']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extension 'ignore'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extension 'ignore_ament_install'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extensions ['colcon_pkg']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extension 'colcon_pkg'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extensions ['colcon_meta']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extension 'colcon_meta'
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extensions ['ros']
+[0.220s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_core) by extension 'ros'
+[0.223s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base/go2_core' with type 'ros.ament_cmake' and name 'go2_core'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extension 'ignore'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extension 'ignore_ament_install'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extensions ['colcon_pkg']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extension 'colcon_pkg'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extensions ['colcon_meta']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extension 'colcon_meta'
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extensions ['ros']
+[0.223s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_driver) by extension 'ros'
+[0.224s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base/go2_driver' with type 'ros.ament_cmake' and name 'go2_driver'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extension 'ignore'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extension 'ignore_ament_install'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extensions ['colcon_pkg']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extension 'colcon_pkg'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extensions ['colcon_meta']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extension 'colcon_meta'
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extensions ['ros']
+[0.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/base/go2_twist_bridge) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base/go2_twist_bridge' with type 'ros.ament_cmake' and name 'go2_twist_bridge'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extensions ['ros']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_description) by extension 'ros'
+[0.225s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_description' with type 'ros.ament_cmake' and name 'go2_description'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extension 'colcon_meta'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_navigation2) by extension 'ros'
+[0.226s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_navigation2' with type 'ros.ament_cmake' and name 'go2_navigation2'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_perception) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_perception' with type 'ros.ament_cmake' and name 'go2_perception'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extensions ['ignore', 'ignore_ament_install']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extension 'ignore'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extension 'ignore_ament_install'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extensions ['colcon_pkg']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extension 'colcon_pkg'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extensions ['colcon_meta']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extension 'colcon_meta'
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extensions ['ros']
+[0.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/go2_slam) by extension 'ros'
+[0.227s] DEBUG:colcon.colcon_core.package_identification:Package 'src/go2_slam' with type 'ros.ament_cmake' and name 'go2_slam'
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.227s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.260s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/robot/go2_ws_toolbox/install
+[0.262s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/robot/unitree_ros2/cyclonedds_ws/install
+[0.263s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/humble
+[0.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'go2_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_core', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/base/go2_core', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'go2_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_description', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/go2_description', 'symlink_install': False, 'test_result_base': None}
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'cmake_target' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.299s] Level 5:colcon.colcon_core.verb:set package 'go2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.299s] DEBUG:colcon.colcon_core.verb:Building package 'go2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_driver', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/base/go2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'go2_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_navigation2', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/go2_navigation2', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_perception' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'go2_perception' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_perception', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_perception', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/go2_perception', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.300s] DEBUG:colcon.colcon_core.verb:Building package 'go2_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_slam', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/go2_slam', 'symlink_install': False, 'test_result_base': None}
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'cmake_target' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.300s] Level 5:colcon.colcon_core.verb:set package 'go2_twist_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.301s] DEBUG:colcon.colcon_core.verb:Building package 'go2_twist_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/robot/go2_ws_toolbox/build/go2_twist_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/robot/go2_ws_toolbox/install/go2_twist_bridge', 'merge_install': False, 'path': '/home/robot/go2_ws_toolbox/src/base/go2_twist_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.301s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.302s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.302s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/base/go2_core' with build type 'ament_cmake'
+[0.302s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/base/go2_core'
+[0.303s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.304s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.304s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.307s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/go2_description' with build type 'ament_cmake'
+[0.307s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/go2_description'
+[0.308s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.308s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.312s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/base/go2_driver' with build type 'ament_cmake'
+[0.312s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/base/go2_driver'
+[0.312s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.312s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.316s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/go2_navigation2' with build type 'ament_cmake'
+[0.316s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/go2_navigation2'
+[0.317s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.317s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.322s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/go2_perception' with build type 'ament_cmake'
+[0.322s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/go2_perception'
+[0.323s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.323s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.327s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/go2_slam' with build type 'ament_cmake'
+[0.327s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/go2_slam'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.332s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/robot/go2_ws_toolbox/src/base/go2_twist_bridge' with build type 'ament_cmake'
+[0.332s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/robot/go2_ws_toolbox/src/base/go2_twist_bridge'
+[0.333s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.333s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.346s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_description -- -j16 -l16
+[0.349s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[0.352s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_navigation2 -- -j16 -l16
+[0.355s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_perception -- -j16 -l16
+[0.360s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_slam -- -j16 -l16
+[0.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_twist_bridge -- -j16 -l16
+[0.386s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_description -- -j16 -l16
+[0.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_description
+[0.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_core
+[0.411s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_slam -- -j16 -l16
+[0.412s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_slam
+[0.415s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_description)
+[0.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_description
+[0.428s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description' for CMake module files
+[0.429s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description' for CMake config files
+[0.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_description', 'cmake_prefix_path')
+[0.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/hook/cmake_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/hook/cmake_prefix_path.dsv'
+[0.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/hook/cmake_prefix_path.sh'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/bin'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/lib/pkgconfig/go2_description.pc'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/lib/python3.10/site-packages'
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/bin'
+[0.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.ps1'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.dsv'
+[0.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.sh'
+[0.437s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.bash'
+[0.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.zsh'
+[0.438s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_description/share/colcon-core/packages/go2_description)
+[0.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_description)
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description' for CMake module files
+[0.440s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description' for CMake config files
+[0.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_description', 'cmake_prefix_path')
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/hook/cmake_prefix_path.ps1'
+[0.440s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/hook/cmake_prefix_path.dsv'
+[0.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/hook/cmake_prefix_path.sh'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/bin'
+[0.441s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/lib/pkgconfig/go2_description.pc'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/lib/python3.10/site-packages'
+[0.442s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_description/bin'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.ps1'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.dsv'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.bash'
+[0.444s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.zsh'
+[0.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_description/share/colcon-core/packages/go2_description)
+[0.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_core)
+[0.446s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core' for CMake module files
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_core
+[0.447s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core' for CMake config files
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_core', 'cmake_prefix_path')
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/hook/cmake_prefix_path.ps1'
+[0.448s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/hook/cmake_prefix_path.dsv'
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/hook/cmake_prefix_path.sh'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/lib'
+[0.449s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/bin'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/lib/pkgconfig/go2_core.pc'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/lib/python3.10/site-packages'
+[0.450s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/bin'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.sh'
+[0.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.bash'
+[0.452s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.zsh'
+[0.452s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_core/share/colcon-core/packages/go2_core)
+[0.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_core)
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core' for CMake module files
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core' for CMake config files
+[0.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_core', 'cmake_prefix_path')
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/hook/cmake_prefix_path.ps1'
+[0.454s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/hook/cmake_prefix_path.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/hook/cmake_prefix_path.sh'
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/lib'
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/bin'
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/lib/pkgconfig/go2_core.pc'
+[0.455s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/lib/python3.10/site-packages'
+[0.456s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_core/bin'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.ps1'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.dsv'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.sh'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.bash'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.zsh'
+[0.458s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_core/share/colcon-core/packages/go2_core)
+[0.460s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_navigation2 -- -j16 -l16
+[0.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_slam)
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam' for CMake module files
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_navigation2
+[0.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_slam
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam' for CMake config files
+[0.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_slam', 'cmake_prefix_path')
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.sh'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/bin'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/lib/pkgconfig/go2_slam.pc'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/lib/python3.10/site-packages'
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/bin'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.bash'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.zsh'
+[0.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_slam/share/colcon-core/packages/go2_slam)
+[0.469s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_slam)
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam' for CMake module files
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam' for CMake config files
+[0.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_slam', 'cmake_prefix_path')
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.dsv'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/hook/cmake_prefix_path.sh'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/bin'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/lib/pkgconfig/go2_slam.pc'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/lib/python3.10/site-packages'
+[0.474s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_slam/bin'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.ps1'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.sh'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.bash'
+[0.476s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.zsh'
+[0.476s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_slam/share/colcon-core/packages/go2_slam)
+[0.478s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_twist_bridge -- -j16 -l16
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_twist_bridge
+[0.479s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_perception -- -j16 -l16
+[0.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_perception
+[0.483s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_navigation2)
+[0.483s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2' for CMake module files
+[0.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_navigation2
+[0.484s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2' for CMake config files
+[0.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_navigation2', 'cmake_prefix_path')
+[0.484s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/hook/cmake_prefix_path.ps1'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/hook/cmake_prefix_path.dsv'
+[0.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/hook/cmake_prefix_path.sh'
+[0.486s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/lib'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/bin'
+[0.487s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/lib/pkgconfig/go2_navigation2.pc'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/lib/python3.10/site-packages'
+[0.488s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/bin'
+[0.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.ps1'
+[0.489s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.dsv'
+[0.490s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.zsh'
+[0.492s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_navigation2/share/colcon-core/packages/go2_navigation2)
+[0.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_navigation2)
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2' for CMake module files
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2' for CMake config files
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_navigation2', 'cmake_prefix_path')
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/hook/cmake_prefix_path.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/hook/cmake_prefix_path.dsv'
+[0.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/hook/cmake_prefix_path.sh'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/lib'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/bin'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/lib/pkgconfig/go2_navigation2.pc'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/lib/python3.10/site-packages'
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_navigation2/bin'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.sh'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.bash'
+[0.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.zsh'
+[0.498s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_navigation2/share/colcon-core/packages/go2_navigation2)
+[0.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_twist_bridge)
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge' for CMake module files
+[0.501s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_twist_bridge
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge' for CMake config files
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_twist_bridge', 'cmake_prefix_path')
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/hook/cmake_prefix_path.ps1'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/hook/cmake_prefix_path.dsv'
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/hook/cmake_prefix_path.sh'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/bin'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/pkgconfig/go2_twist_bridge.pc'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/python3.10/site-packages'
+[0.503s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/bin'
+[0.503s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.ps1'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.sh'
+[0.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.bash'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.zsh'
+[0.505s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/colcon-core/packages/go2_twist_bridge)
+[0.505s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_twist_bridge)
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge' for CMake module files
+[0.506s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge' for CMake config files
+[0.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_twist_bridge', 'cmake_prefix_path')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/hook/cmake_prefix_path.ps1'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/hook/cmake_prefix_path.dsv'
+[0.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/hook/cmake_prefix_path.sh'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/bin'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/pkgconfig/go2_twist_bridge.pc'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/python3.10/site-packages'
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/bin'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.bash'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/colcon-core/packages/go2_twist_bridge)
+[0.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_perception)
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception' for CMake module files
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_perception
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception' for CMake config files
+[0.513s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'cmake_prefix_path')
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.sh'
+[0.516s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/lib'
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'ld_library_path_lib')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.dsv'
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.sh'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/bin'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/lib/pkgconfig/go2_perception.pc'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/lib/python3.10/site-packages'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/bin'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.sh'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.bash'
+[0.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.zsh'
+[0.519s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_perception/share/colcon-core/packages/go2_perception)
+[0.520s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_perception)
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception' for CMake module files
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception' for CMake config files
+[0.521s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'cmake_prefix_path')
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.ps1'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.dsv'
+[0.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/cmake_prefix_path.sh'
+[0.522s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/lib'
+[0.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_perception', 'ld_library_path_lib')
+[0.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/hook/ld_library_path_lib.sh'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/bin'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/lib/pkgconfig/go2_perception.pc'
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/lib/python3.10/site-packages'
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_perception/bin'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.ps1'
+[0.524s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.sh'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.bash'
+[0.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.zsh'
+[0.525s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_perception/share/colcon-core/packages/go2_perception)
+[7.604s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[7.606s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_driver
+[7.622s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_driver)
+[7.623s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver' for CMake module files
+[7.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_driver
+[7.624s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver' for CMake config files
+[7.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_driver', 'cmake_prefix_path')
+[7.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/hook/cmake_prefix_path.ps1'
+[7.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/hook/cmake_prefix_path.dsv'
+[7.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/hook/cmake_prefix_path.sh'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/lib'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/bin'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/lib/pkgconfig/go2_driver.pc'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/lib/python3.10/site-packages'
+[7.625s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/bin'
+[7.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.ps1'
+[7.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.dsv'
+[7.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.sh'
+[7.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.bash'
+[7.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.zsh'
+[7.628s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_driver/share/colcon-core/packages/go2_driver)
+[7.628s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(go2_driver)
+[7.628s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver' for CMake module files
+[7.629s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver' for CMake config files
+[7.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('go2_driver', 'cmake_prefix_path')
+[7.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/hook/cmake_prefix_path.ps1'
+[7.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/hook/cmake_prefix_path.dsv'
+[7.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/hook/cmake_prefix_path.sh'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/lib'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/bin'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/lib/pkgconfig/go2_driver.pc'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/lib/python3.10/site-packages'
+[7.630s] Level 1:colcon.colcon_core.environment:checking '/home/robot/go2_ws_toolbox/install/go2_driver/bin'
+[7.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.ps1'
+[7.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.dsv'
+[7.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.sh'
+[7.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.bash'
+[7.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.zsh'
+[7.632s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/robot/go2_ws_toolbox/install/go2_driver/share/colcon-core/packages/go2_driver)
+[7.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[7.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[7.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[7.632s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[7.638s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[7.638s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[7.638s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[7.647s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[7.648s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/go2_ws_toolbox/install/local_setup.ps1'
+[7.648s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/go2_ws_toolbox/install/_local_setup_util_ps1.py'
+[7.650s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/go2_ws_toolbox/install/setup.ps1'
+[7.651s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/go2_ws_toolbox/install/local_setup.sh'
+[7.651s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/robot/go2_ws_toolbox/install/_local_setup_util_sh.py'
+[7.652s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/go2_ws_toolbox/install/setup.sh'
+[7.653s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/go2_ws_toolbox/install/local_setup.bash'
+[7.653s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/go2_ws_toolbox/install/setup.bash'
+[7.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/robot/go2_ws_toolbox/install/local_setup.zsh'
+[7.655s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/robot/go2_ws_toolbox/install/setup.zsh'

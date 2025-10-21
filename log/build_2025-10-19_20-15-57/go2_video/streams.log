@@ -1,0 +1,44 @@
+[0.026s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target video[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/video.dir/src/video.cpp.o[0m
+[2.266s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:[m[K In member function ‘[01m[Kvoid VideoConverter::videoCallback(unitree_go::msg::Go2FrontVideoData_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.266s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:44:20:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::VideoCapture::open(cv::Mat&, cv::VideoCaptureAPIs, int)[m[K’
+[2.266s]    44 |       if (![01;31m[Kcap.open(video_mat, cv::CAP_FFMPEG, cv::VideoWriter::fourcc('H', '2', '6', '4'))[m[K) {
+[2.266s]       |            [01;31m[K~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.266s] In file included from [01m[K/usr/include/opencv4/opencv2/highgui.hpp:51[m[K,
+[2.266s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[2.267s]                  from [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:5[m[K:
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:739:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(const String&, int)[m[K’
+[2.267s]   739 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(const String& filename, int apiPreference = CAP_ANY);
+[2.267s]       |                          [01;36m[K^~~~[m[K
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:739:26:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:752:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(const String&, int, const std::vector<int>&)[m[K’
+[2.267s]   752 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(const String& filename, int apiPreference, const std::vector<int>& params);
+[2.267s]       |                          [01;36m[K^~~~[m[K
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:752:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst String&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[2.267s]   752 |     CV_WRAP virtual bool open([01;36m[Kconst String& filename[m[K, int apiPreference, const std::vector<int>& params);
+[2.267s]       |                               [01;36m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:763:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(int, int)[m[K’
+[2.267s]   763 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(int index, int apiPreference = CAP_ANY);
+[2.267s]       |                          [01;36m[K^~~~[m[K
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:763:26:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 3 provided
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:776:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(int, int, const std::vector<int>&)[m[K’
+[2.267s]   776 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(int index, int apiPreference, const std::vector<int>& params);
+[2.267s]       |                          [01;36m[K^~~~[m[K
+[2.267s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:776:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kint[m[K’
+[2.267s]   776 |     CV_WRAP virtual bool open([01;36m[Kint index[m[K, int apiPreference, const std::vector<int>& params);
+[2.267s]       |                               [01;36m[K~~~~^~~~~[m[K
+[2.270s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:59:31:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.270s]    59 |         std_msgs::msg::Header{[01;35m[K.[m[Kstamp = stamp, .frame_id = "head_camera"},
+[2.270s]       |                               [01;35m[K^[m[K
+[2.270s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:59:47:[m[K [01;35m[Kwarning: [m[KC++ designated initializers only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-std=gnu++20[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[2.270s]    59 |         std_msgs::msg::Header{.stamp = stamp, [01;35m[K.[m[Kframe_id = "head_camera"},
+[2.270s]       |                                               [01;35m[K^[m[K
+[2.270s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:59:72:[m[K [01;31m[Kerror: [m[Kdesignated initializers cannot be used with a non-aggregate type ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >[m[K’
+[2.270s]    59 |         std_msgs::msg::Header{.stamp = stamp, .frame_id = "head_camera"[01;31m[K}[m[K,
+[2.270s]       |                                                                        [01;31m[K^[m[K
+[2.270s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:59:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::Header_(<brace-enclosed initializer list>)[m[K’
+[4.505s] gmake[2]: *** [CMakeFiles/video.dir/build.make:76：CMakeFiles/video.dir/src/video.cpp.o] 错误 1
+[4.505s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/video.dir/all] 错误 2
+[4.505s] gmake: *** [Makefile:146：all] 错误 2
+[4.507s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16

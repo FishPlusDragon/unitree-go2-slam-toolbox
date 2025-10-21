@@ -1,0 +1,8 @@
+[0.033s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[0.097s] [100%] [32m[1mLinking CXX executable driver[0m
+[66.978s] gmake[2]: *** 正在删除文件“driver”
+[66.984s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:1322: driver] 中断
+[66.985s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/driver.dir/all] 中断
+[66.987s] gmake: *** [Makefile:146: all] 中断
+[67.043s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16

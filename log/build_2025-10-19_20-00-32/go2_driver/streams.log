@@ -1,0 +1,34 @@
+[0.030s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[0.077s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.097s] [ 50%] Built target footprint_to_link
+[0.099s] [ 75%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[10.604s] [100%] [32m[1mLinking CXX executable driver[0m
+[11.162s] [100%] Built target driver
+[11.172s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[11.174s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_driver
+[11.181s] -- Install configuration: ""
+[11.182s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_driver/lib/go2_driver/driver
+[11.190s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_driver/lib/go2_driver/driver" to ""
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/lib/go2_driver/footprint_to_link
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/launch
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/launch/driver.launch.py
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/params
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/params/driver.yaml
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/rviz
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/rviz/display.rviz
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/ament_index/resource_index/package_run_dependencies/go2_driver
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/ament_index/resource_index/parent_prefix_path/go2_driver
+[11.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/ament_prefix_path.sh
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/ament_prefix_path.dsv
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/path.sh
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/path.dsv
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.bash
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.sh
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.zsh
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.dsv
+[11.192s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.dsv
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/ament_index/resource_index/packages/go2_driver
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/cmake/go2_driverConfig.cmake
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/cmake/go2_driverConfig-version.cmake
+[11.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.xml
+[11.194s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_driver

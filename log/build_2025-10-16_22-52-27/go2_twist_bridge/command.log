@@ -1,0 +1,1 @@
+Invoking command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_twist_bridge -- -j16 -l16

@@ -1,0 +1,78 @@
+[0.019s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/go2_ws_toolbox/src/base/go2_core -DCMAKE_INSTALL_PREFIX=/home/robot/go2_ws_toolbox/install/go2_core
+[0.087s] -- The C compiler identification is GNU 11.4.0
+[0.140s] -- The CXX compiler identification is GNU 11.4.0
+[0.147s] -- Detecting C compiler ABI info
+[0.197s] -- Detecting C compiler ABI info - done
+[0.201s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.201s] -- Detecting C compile features
+[0.201s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.263s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.271s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.372s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.459s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.506s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.512s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.521s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.534s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.550s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.593s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.595s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.615s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.626s] -- Looking for pthread.h
+[0.689s] -- Looking for pthread.h - found
+[0.689s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.744s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.745s] -- Found Threads: TRUE  
+[0.786s] -- Found unitree_go: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.809s] -- Found unitree_api: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.821s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.834s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[0.843s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.910s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.928s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.302s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.303s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robot/go2_ws_toolbox/src/base/go2_core/include>
+[1.304s] -- Configured cppcheck exclude dirs and/or files: 
+[1.309s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.319s] -- Added test 'lint_cmake' to check CMake code style
+[1.327s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.359s] -- Added test 'uncrustify' to check C / C++ code style
+[1.360s] -- Configured uncrustify additional arguments: 
+[1.366s] -- Added test 'xmllint' to check XML markup files
+[1.379s] -- Configuring done
+[1.667s] -- Generating done
+[1.674s] -- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_core
+[1.688s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/go2_ws_toolbox/src/base/go2_core -DCMAKE_INSTALL_PREFIX=/home/robot/go2_ws_toolbox/install/go2_core
+[1.689s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[1.937s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[20.924s] [100%] [32m[1mLinking CXX executable driver[0m
+[26.617s] [100%] Built target driver
+[26.626s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[26.628s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_core
+[26.633s] -- Install configuration: ""
+[26.633s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/launch
+[26.633s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/launch/go2_start.launch.py
+[26.633s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/rviz2
+[26.634s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/rviz2/display.rviz
+[26.634s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/lib/go2_core/driver
+[26.638s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_core/lib/go2_core/driver" to ""
+[26.638s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/ament_index/resource_index/package_run_dependencies/go2_core
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/ament_index/resource_index/parent_prefix_path/go2_core
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/environment/ament_prefix_path.sh
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/environment/ament_prefix_path.dsv
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/environment/path.sh
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/environment/path.dsv
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.bash
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.sh
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.zsh
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/local_setup.dsv
+[26.639s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.dsv
+[26.640s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/ament_index/resource_index/packages/go2_core
+[26.640s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/cmake/go2_coreConfig.cmake
+[26.640s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/cmake/go2_coreConfig-version.cmake
+[26.640s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_core/share/go2_core/package.xml
+[26.642s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_core

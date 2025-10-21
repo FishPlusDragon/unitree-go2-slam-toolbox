@@ -1,0 +1,12 @@
+[0.032s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[0.102s] [ 33%] Built target footprint_to_link
+[0.103s] [ 66%] Built target driver
+[0.103s] [ 83%] [32mBuilding CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o[0m
+[0.357s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: 没有那个文件或目录
+[0.357s]     7 | #include [01;31m[K"tf2_geometry_msgs/tf2_geometry_msgs.hpp"[m[K
+[0.358s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.358s] compilation terminated.
+[0.364s] gmake[2]: *** [CMakeFiles/lowstate_to_imu.dir/build.make:76：CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o] 错误 1
+[0.364s] gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/lowstate_to_imu.dir/all] 错误 2
+[0.364s] gmake: *** [Makefile:146：all] 错误 2
+[0.367s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16

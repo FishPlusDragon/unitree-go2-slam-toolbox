@@ -1,0 +1,3 @@
+[ 33%] Built target footprint_to_link
+[ 66%] Built target driver
+[ 83%] [32mBuilding CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o[0m

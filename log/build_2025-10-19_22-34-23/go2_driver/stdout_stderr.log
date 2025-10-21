@@ -1,0 +1,41 @@
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found unitree_go: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+-- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robot/go2_ws_toolbox/src/base/go2_driver/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_driver
+[35m[1mConsolidate compiler generated dependencies of target footprint_to_link[0m
+[35m[1mConsolidate compiler generated dependencies of target lowstate_to_imu[0m
+[35m[1mConsolidate compiler generated dependencies of target driver[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o[0m
+[ 83%] Built target footprint_to_link
+[ 83%] Built target driver
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:[m[K In member function ‘[01m[Kvoid LowStateToImuNode::publish_tf_transform()[m[K’:
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:91:38:[m[K [01;31m[Kerror: [m[K‘[01m[KtoMsg[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   91 |         tf.transform.rotation = tf2::[01;31m[KtoMsg[m[K(q);
+      |                                      [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/lowstate_to_imu.dir/build.make:76：CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/lowstate_to_imu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target pointcloud_to_laserscan[0m
+[ 33%] Built target cloud_accumulation
+[ 66%] Built target pointcloud_to_laserscan_node
+[100%] Built target pointcloud_to_laserscan
+-- Install configuration: ""
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch/go2_pointcloud.launch.py
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.bash
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.zsh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.xml

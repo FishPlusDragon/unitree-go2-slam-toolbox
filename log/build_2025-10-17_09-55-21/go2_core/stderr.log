@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:23 (target_compile_features):
+  Cannot specify compile features for target "driver" which is not built by
+  this project.
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

@@ -1,0 +1,7 @@
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:[m[K In member function ‘[01m[Kvoid LowStateToImuNode::publish_tf_transform()[m[K’:
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_driver/src/lowstate_to_imu.cpp:91:38:[m[K [01;31m[Kerror: [m[K‘[01m[KtoMsg[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+   91 |         tf.transform.rotation = tf2::[01;31m[KtoMsg[m[K(q);
+      |                                      [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/lowstate_to_imu.dir/build.make:76：CMakeFiles/lowstate_to_imu.dir/src/lowstate_to_imu.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:193：CMakeFiles/lowstate_to_imu.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

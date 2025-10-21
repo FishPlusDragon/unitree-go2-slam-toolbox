@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f5bc34ea4c064c19b44f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "go2_driver",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "driver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-driver-5047cf5d788f4b5ca38f.json",
+					"name" : "driver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "footprint_to_link::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-footprint_to_link-151d7ff07b06689863e6.json",
+					"name" : "footprint_to_link",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "go2_driver_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-go2_driver_uninstall-32f5ae3437f3c60c851b.json",
+					"name" : "go2_driver_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lowstate_to_imu::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lowstate_to_imu-bf4d291e74f7b6eae980.json",
+					"name" : "lowstate_to_imu",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-e15edfae86f2be6c3dbb.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/robot/go2_ws_toolbox/build/go2_driver",
+		"source" : "/home/robot/go2_ws_toolbox/src/base/go2_driver"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,10 @@
+[0.261s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.562s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.581s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[3.868s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:181:10:[m[K [01;31m[Kerror: [m[Kextra qualification ‘[01m[KGo2Driver::[m[K’ on member ‘[01m[Kpose_callback[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.868s]   181 |     void [01;31m[KGo2Driver[m[K::pose_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg)
+[3.868s]       |          [01;31m[K^~~~~~~~~[m[K
+[10.344s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+[10.344s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+[10.345s] gmake: *** [Makefile:146：all] 错误 2
+[10.347s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16

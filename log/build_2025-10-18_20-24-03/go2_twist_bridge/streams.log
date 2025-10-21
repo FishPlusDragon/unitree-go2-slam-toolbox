@@ -1,0 +1,25 @@
+[0.026s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_twist_bridge -- -j16 -l16
+[0.074s] [ 50%] [32mBuilding CXX object CMakeFiles/twist_bridge.dir/src/twist_bridge.cpp.o[0m
+[17.548s] [100%] [32m[1mLinking CXX executable twist_bridge[0m
+[17.860s] [100%] Built target twist_bridge
+[17.870s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_twist_bridge -- -j16 -l16
+[17.872s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_twist_bridge
+[17.877s] -- Install configuration: ""
+[17.878s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge
+[17.882s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge" to ""
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/package_run_dependencies/go2_twist_bridge
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/parent_prefix_path/go2_twist_bridge
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.sh
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.dsv
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.sh
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.dsv
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.bash
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.sh
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.zsh
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.dsv
+[17.883s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv
+[17.883s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/packages/go2_twist_bridge
+[17.884s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig.cmake
+[17.884s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig-version.cmake
+[17.884s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.xml
+[17.886s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_twist_bridge' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_twist_bridge

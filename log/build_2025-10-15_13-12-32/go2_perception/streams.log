@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_perception -- -j16 -l16
+[0.054s] [ 33%] Built target pointcloud_to_laserscan_node
+[0.054s] [ 66%] Built target cloud_accumulation
+[0.054s] [ 83%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[17.077s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[18.074s] [100%] Built target pointcloud_to_laserscan
+[18.089s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_perception -- -j16 -l16
+[18.091s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_perception
+[18.099s] -- Install configuration: ""
+[18.099s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+[18.099s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so
+[18.109s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so" to ""
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch
+[18.109s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch/go2_pointcloud.launch.py
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.sh
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.dsv
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.bash
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.sh
+[18.109s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.zsh
+[18.110s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.dsv
+[18.110s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv
+[18.110s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+[18.110s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+[18.110s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+[18.110s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+[18.110s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.xml
+[18.112s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_perception

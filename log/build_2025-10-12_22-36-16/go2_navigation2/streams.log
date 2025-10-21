@@ -1,0 +1,53 @@
+[0.019s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_navigation2 -- -j16 -l16
+[0.038s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.124s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.141s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.142s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.145s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.151s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.158s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.175s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.176s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.184s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.215s] -- Found unitree_go: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.230s] -- Found unitree_api: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/share/unitree_api/cmake)
+[0.237s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.247s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.303s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.304s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robot/go2_ws_toolbox/src/go2_navigation2/include>
+[0.304s] -- Configured cppcheck exclude dirs and/or files: 
+[0.305s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.308s] -- Added test 'lint_cmake' to check CMake code style
+[0.309s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.317s] -- Added test 'uncrustify' to check C / C++ code style
+[0.317s] -- Configured uncrustify additional arguments: 
+[0.320s] -- Added test 'xmllint' to check XML markup files
+[0.325s] -- Configuring done
+[0.389s] -- Generating done
+[0.416s] -- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_navigation2
+[0.606s] [35m[1mConsolidate compiler generated dependencies of target navigation[0m
+[0.690s] [100%] Built target navigation
+[0.761s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_navigation2 -- -j16 -l16
+[0.769s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_navigation2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_navigation2
+[0.809s] -- Install configuration: ""
+[0.810s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/lib/go2_navigation2/navigation
+[0.811s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch
+[0.811s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch/go2_nav2.launch.py
+[0.812s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/config
+[0.813s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/config/nav2_params.yaml
+[0.814s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/package_run_dependencies/go2_navigation2
+[0.814s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/parent_prefix_path/go2_navigation2
+[0.815s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.sh
+[0.816s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.dsv
+[0.816s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/path.sh
+[0.817s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/path.dsv
+[0.818s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.bash
+[0.819s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.sh
+[0.819s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.zsh
+[0.820s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.dsv
+[0.820s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.dsv
+[0.822s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/packages/go2_navigation2
+[0.823s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config.cmake
+[0.823s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config-version.cmake
+[0.824s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.xml
+[0.838s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_navigation2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_navigation2

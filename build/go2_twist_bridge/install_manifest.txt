@@ -1,0 +1,16 @@
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/package_run_dependencies/go2_twist_bridge
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/parent_prefix_path/go2_twist_bridge
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.sh
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.dsv
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.sh
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.dsv
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.bash
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.sh
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.zsh
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.dsv
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/packages/go2_twist_bridge
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig.cmake
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig-version.cmake
+/home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.xml

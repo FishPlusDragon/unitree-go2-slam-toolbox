@@ -1,0 +1,24 @@
+[0.017s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_slam -- -j16 -l16
+[0.045s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_slam -- -j16 -l16
+[0.046s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_slam
+[0.054s] -- Install configuration: ""
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/launch
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/launch/go2_slamtoolbox.launch.py
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/config
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/config/mapper_params_online_async.yaml
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/ament_index/resource_index/package_run_dependencies/go2_slam
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/ament_index/resource_index/parent_prefix_path/go2_slam
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/path.sh
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/path.dsv
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.bash
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.sh
+[0.054s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.zsh
+[0.055s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.dsv
+[0.055s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.dsv
+[0.055s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/ament_index/resource_index/packages/go2_slam
+[0.055s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/cmake/go2_slamConfig.cmake
+[0.055s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/cmake/go2_slamConfig-version.cmake
+[0.055s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.xml
+[0.070s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_slam

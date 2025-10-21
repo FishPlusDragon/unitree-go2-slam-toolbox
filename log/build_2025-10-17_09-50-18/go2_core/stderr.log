@@ -1,0 +1,5 @@
+[01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp: 没有那个文件或目录
+compilation terminated.
+gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,12 @@
+[0.028s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.375s] [35m[1mConsolidate compiler generated dependencies of target driver[0m
+[0.643s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[5.221s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:[m[K In constructor ‘[01m[KGo2Driver::Go2Driver()[m[K’:
+[5.221s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:51:140:[m[K [01;31m[Kerror: [m[K‘[01m[Ksport_mode_state_cb[m[K’ is not a member of ‘[01m[KGo2Driver[m[K’
+[5.221s]    51 | itree_go::msg::SportModeState>("/lf/sportmodestate", 10, std::bind(&Go2Driver::[01;31m[Ksport_mode_state_cb[m[K, this, _1));
+[5.221s]       |                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.221s] 
+[10.607s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+[10.607s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+[10.607s] gmake: *** [Makefile:146：all] 错误 2
+[10.610s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16

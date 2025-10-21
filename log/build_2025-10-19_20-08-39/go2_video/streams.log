@@ -1,0 +1,10 @@
+[0.026s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+[0.068s] [ 50%] [32mBuilding CXX object CMakeFiles/video.dir/src/video.cpp.o[0m
+[0.249s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.h: 没有那个文件或目录
+[0.250s]     4 | #include [01;31m[K<cv_bridge/cv_bridge.h>[m[K
+[0.250s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.250s] compilation terminated.
+[0.256s] gmake[2]: *** [CMakeFiles/video.dir/build.make:76：CMakeFiles/video.dir/src/video.cpp.o] 错误 1
+[0.256s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/video.dir/all] 错误 2
+[0.256s] gmake: *** [Makefile:146：all] 错误 2
+[0.259s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16

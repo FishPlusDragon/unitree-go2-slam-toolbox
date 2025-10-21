@@ -1,0 +1,8 @@
+[0.029s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16
+[0.089s] [ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+[0.095s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp: 没有那个文件或目录
+[0.095s] compilation terminated.
+[0.096s] gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+[0.096s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+[0.097s] gmake: *** [Makefile:146：all] 错误 2
+[0.120s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_core' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_core -- -j16 -l16

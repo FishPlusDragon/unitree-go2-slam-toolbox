@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/opt/ros/humble/include/**",
+                "~/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+                "~/unitree_ros2/cyclonedds_ws/install/unitree_api/include/**",
+                "~/unitree_ros2/cyclonedds_ws/install/unitree_go/include/**",
+                "/usr/include/eigen3",
+                "/opt/ros/humble/include/builtin_interfaces",
+                "/usr/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

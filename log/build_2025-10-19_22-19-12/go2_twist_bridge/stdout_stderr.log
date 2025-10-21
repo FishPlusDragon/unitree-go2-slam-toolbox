@@ -1,0 +1,18 @@
+[100%] Built target twist_bridge
+-- Install configuration: ""
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/package_run_dependencies/go2_twist_bridge
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/parent_prefix_path/go2_twist_bridge
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.bash
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.zsh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/packages/go2_twist_bridge
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig.cmake
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig-version.cmake
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.xml

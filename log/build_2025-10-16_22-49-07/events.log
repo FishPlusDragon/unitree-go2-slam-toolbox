@@ -1,0 +1,1849 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (go2_core) JobQueued: {'identifier': 'go2_core', 'dependencies': OrderedDict()}
+[0.000277] (go2_description) JobQueued: {'identifier': 'go2_description', 'dependencies': OrderedDict()}
+[0.000302] (go2_driver) JobQueued: {'identifier': 'go2_driver', 'dependencies': OrderedDict()}
+[0.000323] (go2_navigation2) JobQueued: {'identifier': 'go2_navigation2', 'dependencies': OrderedDict()}
+[0.000353] (go2_perception) JobQueued: {'identifier': 'go2_perception', 'dependencies': OrderedDict()}
+[0.000411] (go2_slam) JobQueued: {'identifier': 'go2_slam', 'dependencies': OrderedDict()}
+[0.000432] (go2_twist_bridge) JobQueued: {'identifier': 'go2_twist_bridge', 'dependencies': OrderedDict()}
+[0.000455] (go2_core) JobStarted: {'identifier': 'go2_core'}
+[0.004325] (go2_description) JobStarted: {'identifier': 'go2_description'}
+[0.007202] (go2_driver) JobStarted: {'identifier': 'go2_driver'}
+[0.010672] (go2_navigation2) JobStarted: {'identifier': 'go2_navigation2'}
+[0.017090] (go2_perception) JobStarted: {'identifier': 'go2_perception'}
+[0.021338] (go2_slam) JobStarted: {'identifier': 'go2_slam'}
+[0.024890] (go2_twist_bridge) JobStarted: {'identifier': 'go2_twist_bridge'}
+[0.029642] (go2_core) JobProgress: {'identifier': 'go2_core', 'progress': 'cmake'}
+[0.030041] (go2_core) JobProgress: {'identifier': 'go2_core', 'progress': 'build'}
+[0.030656] (go2_core) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_core', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_core', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_core'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.032453] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'cmake'}
+[0.032735] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'build'}
+[0.032990] (go2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_description', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_description'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.034253] (go2_driver) JobProgress: {'identifier': 'go2_driver', 'progress': 'cmake'}
+[0.034568] (go2_driver) JobProgress: {'identifier': 'go2_driver', 'progress': 'build'}
+[0.035005] (go2_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_driver', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_driver'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.036543] (go2_navigation2) JobProgress: {'identifier': 'go2_navigation2', 'progress': 'cmake'}
+[0.036841] (go2_navigation2) JobProgress: {'identifier': 'go2_navigation2', 'progress': 'build'}
+[0.037133] (go2_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_navigation2', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_navigation2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_navigation2'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.038115] (go2_perception) JobProgress: {'identifier': 'go2_perception', 'progress': 'cmake'}
+[0.038443] (go2_perception) JobProgress: {'identifier': 'go2_perception', 'progress': 'build'}
+[0.038685] (go2_perception) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_perception', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_perception', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_perception'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.040021] (go2_slam) JobProgress: {'identifier': 'go2_slam', 'progress': 'cmake'}
+[0.040310] (go2_slam) JobProgress: {'identifier': 'go2_slam', 'progress': 'build'}
+[0.040591] (go2_slam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_slam', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_slam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_slam'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.045135] (go2_twist_bridge) JobProgress: {'identifier': 'go2_twist_bridge', 'progress': 'cmake'}
+[0.045499] (go2_twist_bridge) JobProgress: {'identifier': 'go2_twist_bridge', 'progress': 'build'}
+[0.045810] (go2_twist_bridge) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robot/go2_ws_toolbox/build/go2_twist_bridge', '--', '-j16', '-l16'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_twist_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_twist_bridge'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.060931] (go2_description) CommandEnded: {'returncode': 0}
+[0.061496] (go2_description) JobProgress: {'identifier': 'go2_description', 'progress': 'install'}
+[0.067586] (go2_core) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target driver\x1b[0m\n'}
+[0.074302] (go2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/go2_ws_toolbox/build/go2_description'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_description', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_description'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.080214] (go2_slam) CommandEnded: {'returncode': 0}
+[0.089013] (go2_slam) JobProgress: {'identifier': 'go2_slam', 'progress': 'install'}
+[0.090228] (go2_slam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/go2_ws_toolbox/build/go2_slam'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_slam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_slam'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.099534] (-) TimerEvent: {}
+[0.105215] (go2_navigation2) StdoutLine: {'line': b'[100%] Built target navigation\n'}
+[0.110714] (go2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.111817] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/launch\n'}
+[0.112342] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/launch/display.launch.py\n'}
+[0.113960] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf\n'}
+[0.114790] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history\n'}
+[0.115720] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112944.urdf\n'}
+[0.116631] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115040.urdf\n'}
+[0.117146] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113633.urdf\n'}
+[0.117655] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112749.urdf\n'}
+[0.118080] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115226.urdf\n'}
+[0.118432] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115300.urdf\n'}
+[0.118783] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193653.urdf\n'}
+[0.119145] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193710.urdf\n'}
+[0.119466] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112047.urdf\n'}
+[0.119850] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115313.urdf\n'}
+[0.120268] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193711.urdf\n'}
+[0.120615] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114759.urdf\n'}
+[0.121968] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113059.urdf\n'}
+[0.122899] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113755.urdf\n'}
+[0.123421] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115021.urdf\n'}
+[0.123845] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114819.urdf\n'}
+[0.124263] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904182446.urdf\n'}
+[0.124615] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115022.urdf\n'}
+[0.125496] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193705.urdf\n'}
+[0.126290] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112735.urdf\n'}
+[0.126693] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112217.urdf\n'}
+[0.127291] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113754.urdf\n'}
+[0.127671] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193644.urdf\n'}
+[0.129011] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112752.urdf\n'}
+[0.129419] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113000.urdf\n'}
+[0.129772] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113839.urdf\n'}
+[0.130418] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113840.urdf\n'}
+[0.132912] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115215.urdf\n'}
+[0.133565] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112143.urdf\n'}
+[0.133977] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193628.urdf\n'}
+[0.134343] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904144240.urdf\n'}
+[0.134675] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/go2_description.urdf\n'}
+[0.135057] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/Amended_collision_model.png\n'}
+[0.136507] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/Normal_collision_model.png\n'}
+[0.137084] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae\n'}
+[0.137561] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/hip.dae\n'}
+[0.138837] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/calf_mirror.dae\n'}
+[0.141043] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/thigh.dae\n'}
+[0.142470] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/thigh_mirror.dae\n'}
+[0.143070] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/calf.dae\n'}
+[0.144528] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/base.dae\n'}
+[0.147197] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/foot.dae\n'}
+[0.151889] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes\n'}
+[0.153478] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/hip.dae\n'}
+[0.154361] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/calf_mirror.dae\n'}
+[0.154899] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/thigh.dae\n'}
+[0.155380] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/thigh_mirror.dae\n'}
+[0.155819] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/calf.dae\n'}
+[0.156371] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/trunk.dae\n'}
+[0.156641] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/foot.dae\n'}
+[0.157003] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description\n'}
+[0.157266] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description\n'}
+[0.157512] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/ament_prefix_path.sh\n'}
+[0.157834] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv\n'}
+[0.158124] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/path.sh\n'}
+[0.158463] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/path.dsv\n'}
+[0.158798] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.bash\n'}
+[0.159070] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.sh\n'}
+[0.159335] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.zsh\n'}
+[0.159565] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.dsv\n'}
+[0.160563] (go2_description) StdoutLine: {'line': b'-- Installing: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.dsv\n'}
+[0.160872] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/ament_index/resource_index/packages/go2_description\n'}
+[0.161140] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake\n'}
+[0.162259] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake\n'}
+[0.162668] (go2_description) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.xml\n'}
+[0.163457] (go2_slam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.164362] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/launch\n'}
+[0.164712] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/launch/go2_slamtoolbox.launch.py\n'}
+[0.165027] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/config\n'}
+[0.165310] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/config/mapper_params_online_async.yaml\n'}
+[0.165578] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/ament_index/resource_index/package_run_dependencies/go2_slam\n'}
+[0.165858] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/ament_index/resource_index/parent_prefix_path/go2_slam\n'}
+[0.166159] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/ament_prefix_path.sh\n'}
+[0.166425] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/ament_prefix_path.dsv\n'}
+[0.166675] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/path.sh\n'}
+[0.166959] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/environment/path.dsv\n'}
+[0.167204] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.bash\n'}
+[0.167601] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.sh\n'}
+[0.167898] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.zsh\n'}
+[0.168160] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/local_setup.dsv\n'}
+[0.168404] (go2_driver) StdoutLine: {'line': b'[100%] Built target driver\n'}
+[0.169596] (go2_slam) StdoutLine: {'line': b'-- Installing: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.dsv\n'}
+[0.170106] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/ament_index/resource_index/packages/go2_slam\n'}
+[0.172838] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/cmake/go2_slamConfig.cmake\n'}
+[0.173364] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/cmake/go2_slamConfig-version.cmake\n'}
+[0.173745] (go2_slam) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_slam/share/go2_slam/package.xml\n'}
+[0.174191] (go2_description) CommandEnded: {'returncode': 0}
+[0.176404] (go2_core) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable driver\x1b[0m\n'}
+[0.187076] (go2_perception) StdoutLine: {'line': b'[ 33%] Built target cloud_accumulation\n'}
+[0.188300] (go2_perception) StdoutLine: {'line': b'[ 66%] Built target pointcloud_to_laserscan_node\n'}
+[0.200268] (-) TimerEvent: {}
+[0.201465] (go2_perception) StdoutLine: {'line': b'[100%] Built target pointcloud_to_laserscan\n'}
+[0.224795] (go2_twist_bridge) StdoutLine: {'line': b'[100%] Built target twist_bridge\n'}
+[0.269064] (go2_description) JobEnded: {'identifier': 'go2_description', 'rc': 0}
+[0.276309] (go2_slam) CommandEnded: {'returncode': 0}
+[0.300469] (-) TimerEvent: {}
+[0.347630] (go2_slam) JobEnded: {'identifier': 'go2_slam', 'rc': 0}
+[0.355652] (go2_navigation2) CommandEnded: {'returncode': 0}
+[0.360651] (go2_navigation2) JobProgress: {'identifier': 'go2_navigation2', 'progress': 'install'}
+[0.361734] (go2_navigation2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/go2_ws_toolbox/build/go2_navigation2'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_navigation2', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_navigation2'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.365588] (go2_perception) CommandEnded: {'returncode': 0}
+[0.372690] (go2_perception) JobProgress: {'identifier': 'go2_perception', 'progress': 'install'}
+[0.373542] (go2_perception) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/go2_ws_toolbox/build/go2_perception'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_perception', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_perception'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.379792] (go2_driver) CommandEnded: {'returncode': 0}
+[0.383851] (go2_driver) JobProgress: {'identifier': 'go2_driver', 'progress': 'install'}
+[0.385271] (go2_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/go2_ws_toolbox/build/go2_driver'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_driver', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_driver'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.401532] (go2_twist_bridge) CommandEnded: {'returncode': 0}
+[0.404748] (-) TimerEvent: {}
+[0.406263] (go2_navigation2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.407810] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/lib/go2_navigation2/navigation\n'}
+[0.409052] (go2_twist_bridge) JobProgress: {'identifier': 'go2_twist_bridge', 'progress': 'install'}
+[0.409509] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch\n'}
+[0.418611] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/launch/go2_nav2.launch.py\n'}
+[0.420154] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/config\n'}
+[0.420637] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/config/nav2_params.yaml\n'}
+[0.421088] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/package_run_dependencies/go2_navigation2\n'}
+[0.421493] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/parent_prefix_path/go2_navigation2\n'}
+[0.421881] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.sh\n'}
+[0.422244] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/ament_prefix_path.dsv\n'}
+[0.422582] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/path.sh\n'}
+[0.422976] (go2_twist_bridge) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robot/go2_ws_toolbox/build/go2_twist_bridge'], 'cwd': '/home/robot/go2_ws_toolbox/build/go2_twist_bridge', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh:en_US:en'), ('USER', 'robot'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/robot/go2_ws_toolbox/install/go2_perception/lib:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/lib:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/robot'), ('CHROME_DESKTOP', 'code.desktop'), ('CYCLONEDDS_URI', '<CycloneDDS><Domain><General><Interfaces>\n                            <NetworkInterface name="enp2s0" priority="default" multicast="default" />\n                        </Interfaces></General></Domain></CycloneDDS>'), ('TERM_PROGRAM_VERSION', '1.103.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1953'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '2141'), ('BUNDLED_DEBUGPY_PATH', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3817'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install:/home/robot/unitree_ros2/cyclonedds_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'robot'), ('JOURNAL_STREAM', '8:1737'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/x86_64-linux-gnu/pkgconfig:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'robot'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/bundled/scripts/noConfigScripts:/home/robot/.config/Code/User/globalStorage/github.copilot-chat/debugCommand'), ('SESSION_MANAGER', 'local/fish:@/tmp/.ICE-unix/2112,unix/fish:/tmp/.ICE-unix/2112'), ('INVOCATION_ID', '6017ef7b60cf48d0b017fcef967e87dd'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robot/.vscode/extensions/ms-python.debugpy-2025.14.1-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-9b8000b6d9c94725.txt'), ('LD_PRELOAD', '/lib/x86_64-linux-gnu/libpthread.so.0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/robot/.config/Code/User/workspaceStorage/6e5b96416476b98b3df7e5668470c74d/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.H4HTE3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-bea4e62698.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/robot/go2_ws_toolbox/build/go2_twist_bridge'), ('QT_QPA_PLATFORM', 'xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/local/lib/python3.10/dist-packages:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/robot/go2_ws_toolbox/install/go2_twist_bridge:/home/robot/go2_ws_toolbox/install/go2_driver:/home/robot/go2_ws_toolbox/install/go2_slam:/home/robot/go2_ws_toolbox/install/go2_perception:/home/robot/go2_ws_toolbox/install/go2_navigation2:/home/robot/go2_ws_toolbox/install/go2_description:/home/robot/go2_ws_toolbox/install/go2_core:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_hg:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go:/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_api:/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp:/home/robot/unitree_ros2/cyclonedds_ws/install/cyclonedds:/opt/ros/humble')]), 'shell': False}
+[0.427571] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/environment/path.dsv\n'}
+[0.433415] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.bash\n'}
+[0.438606] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.sh\n'}
+[0.440844] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.zsh\n'}
+[0.441617] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/local_setup.dsv\n'}
+[0.442108] (go2_navigation2) StdoutLine: {'line': b'-- Installing: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.dsv\n'}
+[0.442480] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/ament_index/resource_index/packages/go2_navigation2\n'}
+[0.442839] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config.cmake\n'}
+[0.444179] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/cmake/go2_navigation2Config-version.cmake\n'}
+[0.444954] (go2_navigation2) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_navigation2/share/go2_navigation2/package.xml\n'}
+[0.445528] (go2_perception) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.446009] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node\n'}
+[0.446456] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so\n'}
+[0.446899] (go2_navigation2) CommandEnded: {'returncode': 0}
+[0.450485] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation\n'}
+[0.451025] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch\n'}
+[0.451462] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch/go2_pointcloud.launch.py\n'}
+[0.451876] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception\n'}
+[0.452300] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception\n'}
+[0.452813] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh\n'}
+[0.453243] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv\n'}
+[0.455188] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.sh\n'}
+[0.456097] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.dsv\n'}
+[0.456691] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.bash\n'}
+[0.457216] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.sh\n'}
+[0.457511] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.zsh\n'}
+[0.457798] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.dsv\n'}
+[0.458126] (go2_perception) StdoutLine: {'line': b'-- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv\n'}
+[0.458380] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/packages/go2_perception\n'}
+[0.458623] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception\n'}
+[0.458904] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake\n'}
+[0.459157] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake\n'}
+[0.459392] (go2_perception) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.xml\n'}
+[0.459642] (go2_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.460023] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/lib/go2_driver/driver\n'}
+[0.460295] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/launch\n'}
+[0.460535] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/launch/driver.launch.py\n'}
+[0.460800] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/params\n'}
+[0.461073] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/params/driver.yaml\n'}
+[0.461384] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/rviz\n'}
+[0.461703] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/rviz/display.rviz\n'}
+[0.462066] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/ament_index/resource_index/package_run_dependencies/go2_driver\n'}
+[0.462360] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/ament_index/resource_index/parent_prefix_path/go2_driver\n'}
+[0.462648] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/ament_prefix_path.sh\n'}
+[0.463517] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/ament_prefix_path.dsv\n'}
+[0.464023] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/path.sh\n'}
+[0.464337] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/environment/path.dsv\n'}
+[0.464674] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.bash\n'}
+[0.465025] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.sh\n'}
+[0.465330] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.zsh\n'}
+[0.465627] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/local_setup.dsv\n'}
+[0.465987] (go2_driver) StdoutLine: {'line': b'-- Installing: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.dsv\n'}
+[0.466528] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/ament_index/resource_index/packages/go2_driver\n'}
+[0.466827] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/cmake/go2_driverConfig.cmake\n'}
+[0.467145] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/cmake/go2_driverConfig-version.cmake\n'}
+[0.467383] (go2_driver) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_driver/share/go2_driver/package.xml\n'}
+[0.470784] (go2_twist_bridge) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.473255] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/lib/go2_twist_bridge/twist_bridge\n'}
+[0.473668] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/package_run_dependencies/go2_twist_bridge\n'}
+[0.474426] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/parent_prefix_path/go2_twist_bridge\n'}
+[0.474892] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.sh\n'}
+[0.475252] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/ament_prefix_path.dsv\n'}
+[0.475569] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.sh\n'}
+[0.476103] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/environment/path.dsv\n'}
+[0.476848] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.bash\n'}
+[0.477203] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.sh\n'}
+[0.477496] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.zsh\n'}
+[0.478510] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/local_setup.dsv\n'}
+[0.479017] (go2_twist_bridge) StdoutLine: {'line': b'-- Installing: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.dsv\n'}
+[0.479323] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/ament_index/resource_index/packages/go2_twist_bridge\n'}
+[0.479582] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig.cmake\n'}
+[0.479875] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/cmake/go2_twist_bridgeConfig-version.cmake\n'}
+[0.480144] (go2_twist_bridge) StdoutLine: {'line': b'-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_twist_bridge/share/go2_twist_bridge/package.xml\n'}
+[0.505155] (-) TimerEvent: {}
+[0.539344] (go2_navigation2) JobEnded: {'identifier': 'go2_navigation2', 'rc': 0}
+[0.546229] (go2_perception) CommandEnded: {'returncode': 0}
+[0.606283] (-) TimerEvent: {}
+[0.642332] (go2_perception) JobEnded: {'identifier': 'go2_perception', 'rc': 0}
+[0.647547] (go2_driver) CommandEnded: {'returncode': 0}
+[0.708027] (-) TimerEvent: {}
+[0.732140] (go2_driver) JobEnded: {'identifier': 'go2_driver', 'rc': 0}
+[0.734173] (go2_twist_bridge) CommandEnded: {'returncode': 0}
+[0.745357] (go2_twist_bridge) JobEnded: {'identifier': 'go2_twist_bridge', 'rc': 0}
+[0.807904] (-) TimerEvent: {}
+[0.908389] (-) TimerEvent: {}
+[1.009519] (-) TimerEvent: {}
+[1.110681] (-) TimerEvent: {}
+[1.211941] (-) TimerEvent: {}
+[1.313073] (-) TimerEvent: {}
+[1.415981] (-) TimerEvent: {}
+[1.517400] (-) TimerEvent: {}
+[1.617900] (-) TimerEvent: {}
+[1.718189] (-) TimerEvent: {}
+[1.818497] (-) TimerEvent: {}
+[1.918905] (-) TimerEvent: {}
+[2.019230] (-) TimerEvent: {}
+[2.119823] (-) TimerEvent: {}
+[2.220896] (-) TimerEvent: {}
+[2.321882] (-) TimerEvent: {}
+[2.422887] (-) TimerEvent: {}
+[2.523978] (-) TimerEvent: {}
+[2.625040] (-) TimerEvent: {}
+[2.726128] (-) TimerEvent: {}
+[2.826783] (-) TimerEvent: {}
+[2.927281] (-) TimerEvent: {}
+[3.028353] (-) TimerEvent: {}
+[3.129475] (-) TimerEvent: {}
+[3.230507] (-) TimerEvent: {}
+[3.331687] (-) TimerEvent: {}
+[3.433058] (-) TimerEvent: {}
+[3.534005] (-) TimerEvent: {}
+[3.634335] (-) TimerEvent: {}
+[3.734729] (-) TimerEvent: {}
+[3.835179] (-) TimerEvent: {}
+[3.935541] (-) TimerEvent: {}
+[4.035849] (-) TimerEvent: {}
+[4.136197] (-) TimerEvent: {}
+[4.236637] (-) TimerEvent: {}
+[4.337006] (-) TimerEvent: {}
+[4.437330] (-) TimerEvent: {}
+[4.537675] (-) TimerEvent: {}
+[4.638008] (-) TimerEvent: {}
+[4.738313] (-) TimerEvent: {}
+[4.838708] (-) TimerEvent: {}
+[4.939062] (-) TimerEvent: {}
+[5.039496] (-) TimerEvent: {}
+[5.139851] (-) TimerEvent: {}
+[5.240426] (-) TimerEvent: {}
+[5.341604] (-) TimerEvent: {}
+[5.442723] (-) TimerEvent: {}
+[5.543902] (-) TimerEvent: {}
+[5.644968] (-) TimerEvent: {}
+[5.746034] (-) TimerEvent: {}
+[5.846850] (-) TimerEvent: {}
+[5.947346] (-) TimerEvent: {}
+[6.048214] (-) TimerEvent: {}
+[6.149231] (-) TimerEvent: {}
+[6.250323] (-) TimerEvent: {}
+[6.351451] (-) TimerEvent: {}
+[6.453049] (-) TimerEvent: {}
+[6.554149] (-) TimerEvent: {}
+[6.655027] (-) TimerEvent: {}
+[6.755381] (-) TimerEvent: {}
+[6.855736] (-) TimerEvent: {}
+[6.956080] (-) TimerEvent: {}
+[7.056371] (-) TimerEvent: {}
+[7.156721] (-) TimerEvent: {}
+[7.257140] (-) TimerEvent: {}
+[7.357480] (-) TimerEvent: {}
+[7.458044] (-) TimerEvent: {}
+[7.558498] (-) TimerEvent: {}
+[7.658909] (-) TimerEvent: {}
+[7.759264] (-) TimerEvent: {}
+[7.859659] (-) TimerEvent: {}
+[7.960039] (-) TimerEvent: {}
+[8.060400] (-) TimerEvent: {}
+[8.160812] (-) TimerEvent: {}
+[8.261168] (-) TimerEvent: {}
+[8.361521] (-) TimerEvent: {}
+[8.461933] (-) TimerEvent: {}
+[8.562284] (-) TimerEvent: {}
+[8.662647] (-) TimerEvent: {}
+[8.763140] (-) TimerEvent: {}
+[8.863626] (-) TimerEvent: {}
+[8.964001] (-) TimerEvent: {}
+[9.064383] (-) TimerEvent: {}
+[9.165113] (-) TimerEvent: {}
+[9.266222] (-) TimerEvent: {}
+[9.367333] (-) TimerEvent: {}
+[9.468529] (-) TimerEvent: {}
+[9.569647] (-) TimerEvent: {}
+[9.670868] (-) TimerEvent: {}
+[9.771736] (-) TimerEvent: {}
+[9.872302] (-) TimerEvent: {}
+[9.973437] (-) TimerEvent: {}
+[10.074544] (-) TimerEvent: {}
+[10.175727] (-) TimerEvent: {}
+[10.276927] (-) TimerEvent: {}
+[10.377966] (-) TimerEvent: {}
+[10.479006] (-) TimerEvent: {}
+[10.579619] (-) TimerEvent: {}
+[10.680161] (-) TimerEvent: {}
+[10.781392] (-) TimerEvent: {}
+[10.882520] (-) TimerEvent: {}
+[10.983666] (-) TimerEvent: {}
+[11.084852] (-) TimerEvent: {}
+[11.186097] (-) TimerEvent: {}
+[11.287120] (-) TimerEvent: {}
+[11.387610] (-) TimerEvent: {}
+[11.488547] (-) TimerEvent: {}
+[11.590023] (-) TimerEvent: {}
+[11.691176] (-) TimerEvent: {}
+[11.792275] (-) TimerEvent: {}
+[11.893376] (-) TimerEvent: {}
+[11.994487] (-) TimerEvent: {}
+[12.095482] (-) TimerEvent: {}
+[12.195840] (-) TimerEvent: {}
+[12.296250] (-) TimerEvent: {}
+[12.396598] (-) TimerEvent: {}
+[12.496975] (-) TimerEvent: {}
+[12.597434] (-) TimerEvent: {}
+[12.697807] (-) TimerEvent: {}
+[12.798163] (-) TimerEvent: {}
+[12.898517] (-) TimerEvent: {}
+[12.998855] (-) TimerEvent: {}
+[13.099430] (-) TimerEvent: {}
+[13.200102] (-) TimerEvent: {}
+[13.300447] (-) TimerEvent: {}
+[13.400814] (-) TimerEvent: {}
+[13.501187] (-) TimerEvent: {}
+[13.601558] (-) TimerEvent: {}
+[13.701936] (-) TimerEvent: {}
+[13.802298] (-) TimerEvent: {}
+[13.902640] (-) TimerEvent: {}
+[14.003082] (-) TimerEvent: {}
+[14.103690] (-) TimerEvent: {}
+[14.204895] (-) TimerEvent: {}
+[14.305995] (-) TimerEvent: {}
+[14.407058] (-) TimerEvent: {}
+[14.508106] (-) TimerEvent: {}
+[14.609185] (-) TimerEvent: {}
+[14.710126] (-) TimerEvent: {}
+[14.810599] (-) TimerEvent: {}
+[14.911209] (-) TimerEvent: {}
+[15.012461] (-) TimerEvent: {}
+[15.113544] (-) TimerEvent: {}
+[15.214595] (-) TimerEvent: {}
+[15.315677] (-) TimerEvent: {}
+[15.416905] (-) TimerEvent: {}
+[15.518006] (-) TimerEvent: {}
+[15.618973] (-) TimerEvent: {}
+[15.719447] (-) TimerEvent: {}
+[15.820485] (-) TimerEvent: {}
+[15.921795] (-) TimerEvent: {}
+[16.022812] (-) TimerEvent: {}
+[16.123876] (-) TimerEvent: {}
+[16.224930] (-) TimerEvent: {}
+[16.325757] (-) TimerEvent: {}
+[16.426169] (-) TimerEvent: {}
+[16.526997] (-) TimerEvent: {}
+[16.628035] (-) TimerEvent: {}
+[16.728997] (-) TimerEvent: {}
+[16.830035] (-) TimerEvent: {}
+[16.931142] (-) TimerEvent: {}
+[17.032244] (-) TimerEvent: {}
+[17.133151] (-) TimerEvent: {}
+[17.233791] (-) TimerEvent: {}
+[17.335065] (-) TimerEvent: {}
+[17.436079] (-) TimerEvent: {}
+[17.537143] (-) TimerEvent: {}
+[17.638153] (-) TimerEvent: {}
+[17.739314] (-) TimerEvent: {}
+[17.840501] (-) TimerEvent: {}
+[17.941476] (-) TimerEvent: {}
+[18.042047] (-) TimerEvent: {}
+[18.143258] (-) TimerEvent: {}
+[18.244329] (-) TimerEvent: {}
+[18.345562] (-) TimerEvent: {}
+[18.446613] (-) TimerEvent: {}
+[18.547810] (-) TimerEvent: {}
+[18.648695] (-) TimerEvent: {}
+[18.749064] (-) TimerEvent: {}
+[18.849420] (-) TimerEvent: {}
+[18.949783] (-) TimerEvent: {}
+[19.050105] (-) TimerEvent: {}
+[19.150444] (-) TimerEvent: {}
+[19.250920] (-) TimerEvent: {}
+[19.351288] (-) TimerEvent: {}
+[19.451627] (-) TimerEvent: {}
+[19.551998] (-) TimerEvent: {}
+[19.652355] (-) TimerEvent: {}
+[19.752718] (-) TimerEvent: {}
+[19.853075] (-) TimerEvent: {}
+[19.953440] (-) TimerEvent: {}
+[20.053937] (-) TimerEvent: {}
+[20.154932] (-) TimerEvent: {}
+[20.255990] (-) TimerEvent: {}
+[20.357173] (-) TimerEvent: {}
+[20.458405] (-) TimerEvent: {}
+[20.559502] (-) TimerEvent: {}
+[20.660579] (-) TimerEvent: {}
+[20.761450] (-) TimerEvent: {}
+[20.862025] (-) TimerEvent: {}
+[20.963067] (-) TimerEvent: {}
+[21.064083] (-) TimerEvent: {}
+[21.166045] (-) TimerEvent: {}
+[21.267057] (-) TimerEvent: {}
+[21.368181] (-) TimerEvent: {}
+[21.469124] (-) TimerEvent: {}
+[21.569476] (-) TimerEvent: {}
+[21.670062] (-) TimerEvent: {}
+[21.771098] (-) TimerEvent: {}
+[21.872215] (-) TimerEvent: {}
+[21.973391] (-) TimerEvent: {}
+[22.074529] (-) TimerEvent: {}
+[22.175672] (-) TimerEvent: {}
+[22.276810] (-) TimerEvent: {}
+[22.377688] (-) TimerEvent: {}
+[22.478265] (-) TimerEvent: {}
+[22.579375] (-) TimerEvent: {}
+[22.680612] (-) TimerEvent: {}
+[22.781608] (-) TimerEvent: {}
+[22.882610] (-) TimerEvent: {}
+[22.983720] (-) TimerEvent: {}
+[23.084625] (-) TimerEvent: {}
+[23.185021] (-) TimerEvent: {}
+[23.285435] (-) TimerEvent: {}
+[23.385926] (-) TimerEvent: {}
+[23.486256] (-) TimerEvent: {}
+[23.586549] (-) TimerEvent: {}
+[23.686924] (-) TimerEvent: {}
+[23.787297] (-) TimerEvent: {}
+[23.887739] (-) TimerEvent: {}
+[23.988160] (-) TimerEvent: {}
+[24.088656] (-) TimerEvent: {}
+[24.189075] (-) TimerEvent: {}
+[24.289425] (-) TimerEvent: {}
+[24.389806] (-) TimerEvent: {}
+[24.490158] (-) TimerEvent: {}
+[24.590511] (-) TimerEvent: {}
+[24.690863] (-) TimerEvent: {}
+[24.791206] (-) TimerEvent: {}
+[24.891531] (-) TimerEvent: {}
+[24.991838] (-) TimerEvent: {}
+[25.092354] (-) TimerEvent: {}
+[25.193839] (-) TimerEvent: {}
+[25.295148] (-) TimerEvent: {}
+[25.396464] (-) TimerEvent: {}
+[25.497602] (-) TimerEvent: {}
+[25.598789] (-) TimerEvent: {}
+[25.699706] (-) TimerEvent: {}
+[25.800121] (-) TimerEvent: {}
+[25.900885] (-) TimerEvent: {}
+[26.002024] (-) TimerEvent: {}
+[26.103200] (-) TimerEvent: {}
+[26.204420] (-) TimerEvent: {}
+[26.305856] (-) TimerEvent: {}
+[26.406907] (-) TimerEvent: {}
+[26.507747] (-) TimerEvent: {}
+[26.608336] (-) TimerEvent: {}
+[26.709172] (-) TimerEvent: {}
+[26.809542] (-) TimerEvent: {}
+[26.909913] (-) TimerEvent: {}
+[27.010317] (-) TimerEvent: {}
+[27.110856] (-) TimerEvent: {}
+[27.211226] (-) TimerEvent: {}
+[27.311576] (-) TimerEvent: {}
+[27.411950] (-) TimerEvent: {}
+[27.512305] (-) TimerEvent: {}
+[27.612656] (-) TimerEvent: {}
+[27.713075] (-) TimerEvent: {}
+[27.813558] (-) TimerEvent: {}
+[27.913949] (-) TimerEvent: {}
+[28.014298] (-) TimerEvent: {}
+[28.114915] (-) TimerEvent: {}
+[28.216008] (-) TimerEvent: {}
+[28.317083] (-) TimerEvent: {}
+[28.418353] (-) TimerEvent: {}
+[28.519475] (-) TimerEvent: {}
+[28.620887] (-) TimerEvent: {}
+[28.721848] (-) TimerEvent: {}
+[28.822385] (-) TimerEvent: {}
+[28.923412] (-) TimerEvent: {}
+[29.024813] (-) TimerEvent: {}
+[29.127011] (-) TimerEvent: {}
+[29.231431] (-) TimerEvent: {}
+[29.335815] (-) TimerEvent: {}
+[29.439540] (-) TimerEvent: {}
+[29.540284] (-) TimerEvent: {}
+[29.640625] (-) TimerEvent: {}
+[29.741014] (-) TimerEvent: {}
+[29.841345] (-) TimerEvent: {}
+[29.941667] (-) TimerEvent: {}
+[30.042366] (-) TimerEvent: {}
+[30.143277] (-) TimerEvent: {}
+[30.244250] (-) TimerEvent: {}
+[30.345375] (-) TimerEvent: {}
+[30.446594] (-) TimerEvent: {}
+[30.547678] (-) TimerEvent: {}
+[30.648999] (-) TimerEvent: {}
+[30.750030] (-) TimerEvent: {}
+[30.851112] (-) TimerEvent: {}
+[30.951687] (-) TimerEvent: {}
+[31.052826] (-) TimerEvent: {}
+[31.153928] (-) TimerEvent: {}
+[31.254984] (-) TimerEvent: {}
+[31.356002] (-) TimerEvent: {}
+[31.457077] (-) TimerEvent: {}
+[31.558013] (-) TimerEvent: {}
+[31.658446] (-) TimerEvent: {}
+[31.758738] (-) TimerEvent: {}
+[31.859105] (-) TimerEvent: {}
+[31.959482] (-) TimerEvent: {}
+[32.059897] (-) TimerEvent: {}
+[32.160376] (-) TimerEvent: {}
+[32.260706] (-) TimerEvent: {}
+[32.361001] (-) TimerEvent: {}
+[32.461346] (-) TimerEvent: {}
+[32.561698] (-) TimerEvent: {}
+[32.662063] (-) TimerEvent: {}
+[32.762417] (-) TimerEvent: {}
+[32.862835] (-) TimerEvent: {}
+[32.963323] (-) TimerEvent: {}
+[33.063668] (-) TimerEvent: {}
+[33.164030] (-) TimerEvent: {}
+[33.264386] (-) TimerEvent: {}
+[33.364762] (-) TimerEvent: {}
+[33.465117] (-) TimerEvent: {}
+[33.565512] (-) TimerEvent: {}
+[33.666028] (-) TimerEvent: {}
+[33.766369] (-) TimerEvent: {}
+[33.866723] (-) TimerEvent: {}
+[33.967138] (-) TimerEvent: {}
+[34.069438] (-) TimerEvent: {}
+[34.172441] (-) TimerEvent: {}
+[34.274059] (-) TimerEvent: {}
+[34.376544] (-) TimerEvent: {}
+[34.482023] (-) TimerEvent: {}
+[34.585741] (-) TimerEvent: {}
+[34.688124] (-) TimerEvent: {}
+[34.788675] (-) TimerEvent: {}
+[34.889404] (-) TimerEvent: {}
+[34.990477] (-) TimerEvent: {}
+[35.091560] (-) TimerEvent: {}
+[35.192806] (-) TimerEvent: {}
+[35.294013] (-) TimerEvent: {}
+[35.395020] (-) TimerEvent: {}
+[35.495943] (-) TimerEvent: {}
+[35.596265] (-) TimerEvent: {}
+[35.696612] (-) TimerEvent: {}
+[35.797040] (-) TimerEvent: {}
+[35.897387] (-) TimerEvent: {}
+[35.997716] (-) TimerEvent: {}
+[36.098352] (-) TimerEvent: {}
+[36.199682] (-) TimerEvent: {}
+[36.301303] (-) TimerEvent: {}
+[36.402591] (-) TimerEvent: {}
+[36.503743] (-) TimerEvent: {}
+[36.604919] (-) TimerEvent: {}
+[36.705803] (-) TimerEvent: {}
+[36.806568] (-) TimerEvent: {}
+[36.907672] (-) TimerEvent: {}
+[37.008733] (-) TimerEvent: {}
+[37.109819] (-) TimerEvent: {}
+[37.210871] (-) TimerEvent: {}
+[37.312011] (-) TimerEvent: {}
+[37.413368] (-) TimerEvent: {}
+[37.514260] (-) TimerEvent: {}
+[37.614640] (-) TimerEvent: {}
+[37.715128] (-) TimerEvent: {}
+[37.815468] (-) TimerEvent: {}
+[37.915770] (-) TimerEvent: {}
+[38.016118] (-) TimerEvent: {}
+[38.116472] (-) TimerEvent: {}
+[38.216839] (-) TimerEvent: {}
+[38.317246] (-) TimerEvent: {}
+[38.417589] (-) TimerEvent: {}
+[38.517933] (-) TimerEvent: {}
+[38.618224] (-) TimerEvent: {}
+[38.718547] (-) TimerEvent: {}
+[38.818925] (-) TimerEvent: {}
+[38.919297] (-) TimerEvent: {}
+[39.019647] (-) TimerEvent: {}
+[39.120025] (-) TimerEvent: {}
+[39.220375] (-) TimerEvent: {}
+[39.320719] (-) TimerEvent: {}
+[39.421090] (-) TimerEvent: {}
+[39.521412] (-) TimerEvent: {}
+[39.621821] (-) TimerEvent: {}
+[39.722174] (-) TimerEvent: {}
+[39.822590] (-) TimerEvent: {}
+[39.922925] (-) TimerEvent: {}
+[40.023214] (-) TimerEvent: {}
+[40.123713] (-) TimerEvent: {}
+[40.224618] (-) TimerEvent: {}
+[40.325996] (-) TimerEvent: {}
+[40.427181] (-) TimerEvent: {}
+[40.528298] (-) TimerEvent: {}
+[40.629388] (-) TimerEvent: {}
+[40.730576] (-) TimerEvent: {}
+[40.831545] (-) TimerEvent: {}
+[40.932063] (-) TimerEvent: {}
+[41.033191] (-) TimerEvent: {}
+[41.134495] (-) TimerEvent: {}
+[41.235697] (-) TimerEvent: {}
+[41.336951] (-) TimerEvent: {}
+[41.438067] (-) TimerEvent: {}
+[41.539122] (-) TimerEvent: {}
+[41.639710] (-) TimerEvent: {}
+[41.740104] (-) TimerEvent: {}
+[41.840487] (-) TimerEvent: {}
+[41.940867] (-) TimerEvent: {}
+[42.041456] (-) TimerEvent: {}
+[42.142795] (-) TimerEvent: {}
+[42.243982] (-) TimerEvent: {}
+[42.345105] (-) TimerEvent: {}
+[42.446262] (-) TimerEvent: {}
+[42.547450] (-) TimerEvent: {}
+[42.648709] (-) TimerEvent: {}
+[42.749705] (-) TimerEvent: {}
+[42.850315] (-) TimerEvent: {}
+[42.951595] (-) TimerEvent: {}
+[43.052899] (-) TimerEvent: {}
+[43.154042] (-) TimerEvent: {}
+[43.255401] (-) TimerEvent: {}
+[43.356506] (-) TimerEvent: {}
+[43.457428] (-) TimerEvent: {}
+[43.557829] (-) TimerEvent: {}
+[43.658179] (-) TimerEvent: {}
+[43.758561] (-) TimerEvent: {}
+[43.858921] (-) TimerEvent: {}
+[43.959287] (-) TimerEvent: {}
+[44.059696] (-) TimerEvent: {}
+[44.160060] (-) TimerEvent: {}
+[44.260408] (-) TimerEvent: {}
+[44.360780] (-) TimerEvent: {}
+[44.461227] (-) TimerEvent: {}
+[44.561651] (-) TimerEvent: {}
+[44.662045] (-) TimerEvent: {}
+[44.762394] (-) TimerEvent: {}
+[44.862778] (-) TimerEvent: {}
+[44.963130] (-) TimerEvent: {}
+[45.063481] (-) TimerEvent: {}
+[45.163834] (-) TimerEvent: {}
+[45.264185] (-) TimerEvent: {}
+[45.364532] (-) TimerEvent: {}
+[45.464922] (-) TimerEvent: {}
+[45.565404] (-) TimerEvent: {}
+[45.665773] (-) TimerEvent: {}
+[45.766134] (-) TimerEvent: {}
+[45.866498] (-) TimerEvent: {}
+[45.966849] (-) TimerEvent: {}
+[46.067397] (-) TimerEvent: {}
+[46.168663] (-) TimerEvent: {}
+[46.269890] (-) TimerEvent: {}
+[46.370966] (-) TimerEvent: {}
+[46.472067] (-) TimerEvent: {}
+[46.573137] (-) TimerEvent: {}
+[46.674025] (-) TimerEvent: {}
+[46.774535] (-) TimerEvent: {}
+[46.875306] (-) TimerEvent: {}
+[46.976437] (-) TimerEvent: {}
+[47.077552] (-) TimerEvent: {}
+[47.178675] (-) TimerEvent: {}
+[47.279802] (-) TimerEvent: {}
+[47.380970] (-) TimerEvent: {}
+[47.481815] (-) TimerEvent: {}
+[47.582211] (-) TimerEvent: {}
+[47.682838] (-) TimerEvent: {}
+[47.784215] (-) TimerEvent: {}
+[47.885308] (-) TimerEvent: {}
+[47.986380] (-) TimerEvent: {}
+[48.087500] (-) TimerEvent: {}
+[48.188603] (-) TimerEvent: {}
+[48.289895] (-) TimerEvent: {}
+[48.390507] (-) TimerEvent: {}
+[48.491184] (-) TimerEvent: {}
+[48.592416] (-) TimerEvent: {}
+[48.693483] (-) TimerEvent: {}
+[48.794935] (-) TimerEvent: {}
+[48.896163] (-) TimerEvent: {}
+[48.997397] (-) TimerEvent: {}
+[49.098529] (-) TimerEvent: {}
+[49.199113] (-) TimerEvent: {}
+[49.300256] (-) TimerEvent: {}
+[49.401537] (-) TimerEvent: {}
+[49.502735] (-) TimerEvent: {}
+[49.603930] (-) TimerEvent: {}
+[49.705103] (-) TimerEvent: {}
+[49.806244] (-) TimerEvent: {}
+[49.907420] (-) TimerEvent: {}
+[50.008132] (-) TimerEvent: {}
+[50.109483] (-) TimerEvent: {}
+[50.210846] (-) TimerEvent: {}
+[50.311944] (-) TimerEvent: {}
+[50.413061] (-) TimerEvent: {}
+[50.514147] (-) TimerEvent: {}
+[50.615106] (-) TimerEvent: {}
+[50.715689] (-) TimerEvent: {}
+[50.816137] (-) TimerEvent: {}
+[50.916487] (-) TimerEvent: {}
+[51.016822] (-) TimerEvent: {}
+[51.117160] (-) TimerEvent: {}
+[51.217520] (-) TimerEvent: {}
+[51.317845] (-) TimerEvent: {}
+[51.418193] (-) TimerEvent: {}
+[51.518545] (-) TimerEvent: {}
+[51.618854] (-) TimerEvent: {}
+[51.719215] (-) TimerEvent: {}
+[51.819631] (-) TimerEvent: {}
+[51.920131] (-) TimerEvent: {}
+[52.020678] (-) TimerEvent: {}
+[52.121740] (-) TimerEvent: {}
+[52.222870] (-) TimerEvent: {}
+[52.324173] (-) TimerEvent: {}
+[52.425309] (-) TimerEvent: {}
+[52.526353] (-) TimerEvent: {}
+[52.627533] (-) TimerEvent: {}
+[52.728519] (-) TimerEvent: {}
+[52.829055] (-) TimerEvent: {}
+[52.930240] (-) TimerEvent: {}
+[53.031231] (-) TimerEvent: {}
+[53.132275] (-) TimerEvent: {}
+[53.233439] (-) TimerEvent: {}
+[53.334647] (-) TimerEvent: {}
+[53.435545] (-) TimerEvent: {}
+[53.535987] (-) TimerEvent: {}
+[53.636403] (-) TimerEvent: {}
+[53.737028] (-) TimerEvent: {}
+[53.838199] (-) TimerEvent: {}
+[53.939236] (-) TimerEvent: {}
+[54.040353] (-) TimerEvent: {}
+[54.141485] (-) TimerEvent: {}
+[54.242674] (-) TimerEvent: {}
+[54.343630] (-) TimerEvent: {}
+[54.444191] (-) TimerEvent: {}
+[54.545306] (-) TimerEvent: {}
+[54.646436] (-) TimerEvent: {}
+[54.747593] (-) TimerEvent: {}
+[54.848800] (-) TimerEvent: {}
+[54.949918] (-) TimerEvent: {}
+[55.051055] (-) TimerEvent: {}
+[55.151847] (-) TimerEvent: {}
+[55.252202] (-) TimerEvent: {}
+[55.352554] (-) TimerEvent: {}
+[55.452917] (-) TimerEvent: {}
+[55.553259] (-) TimerEvent: {}
+[55.653613] (-) TimerEvent: {}
+[55.753961] (-) TimerEvent: {}
+[55.854341] (-) TimerEvent: {}
+[55.954664] (-) TimerEvent: {}
+[56.055346] (-) TimerEvent: {}
+[56.156500] (-) TimerEvent: {}
+[56.257649] (-) TimerEvent: {}
+[56.358917] (-) TimerEvent: {}
+[56.459963] (-) TimerEvent: {}
+[56.561142] (-) TimerEvent: {}
+[56.662066] (-) TimerEvent: {}
+[56.762693] (-) TimerEvent: {}
+[56.863502] (-) TimerEvent: {}
+[56.964963] (-) TimerEvent: {}
+[57.066100] (-) TimerEvent: {}
+[57.167333] (-) TimerEvent: {}
+[57.268618] (-) TimerEvent: {}
+[57.369863] (-) TimerEvent: {}
+[57.470917] (-) TimerEvent: {}
+[57.571219] (-) TimerEvent: {}
+[57.671573] (-) TimerEvent: {}
+[57.771958] (-) TimerEvent: {}
+[57.872347] (-) TimerEvent: {}
+[57.972723] (-) TimerEvent: {}
+[58.073373] (-) TimerEvent: {}
+[58.174508] (-) TimerEvent: {}
+[58.275627] (-) TimerEvent: {}
+[58.376876] (-) TimerEvent: {}
+[58.478092] (-) TimerEvent: {}
+[58.579359] (-) TimerEvent: {}
+[58.680288] (-) TimerEvent: {}
+[58.780857] (-) TimerEvent: {}
+[58.882148] (-) TimerEvent: {}
+[58.983359] (-) TimerEvent: {}
+[59.084532] (-) TimerEvent: {}
+[59.185660] (-) TimerEvent: {}
+[59.286898] (-) TimerEvent: {}
+[59.388039] (-) TimerEvent: {}
+[59.488965] (-) TimerEvent: {}
+[59.589312] (-) TimerEvent: {}
+[59.689669] (-) TimerEvent: {}
+[59.790029] (-) TimerEvent: {}
+[59.890380] (-) TimerEvent: {}
+[59.990724] (-) TimerEvent: {}
+[60.091152] (-) TimerEvent: {}
+[60.191511] (-) TimerEvent: {}
+[60.291868] (-) TimerEvent: {}
+[60.392227] (-) TimerEvent: {}
+[60.492580] (-) TimerEvent: {}
+[60.592952] (-) TimerEvent: {}
+[60.693270] (-) TimerEvent: {}
+[60.793836] (-) TimerEvent: {}
+[60.894675] (-) TimerEvent: {}
+[60.995132] (-) TimerEvent: {}
+[61.095996] (-) TimerEvent: {}
+[61.197205] (-) TimerEvent: {}
+[61.298529] (-) TimerEvent: {}
+[61.399665] (-) TimerEvent: {}
+[61.500972] (-) TimerEvent: {}
+[61.602065] (-) TimerEvent: {}
+[61.702975] (-) TimerEvent: {}
+[61.803536] (-) TimerEvent: {}
+[61.904610] (-) TimerEvent: {}
+[62.005898] (-) TimerEvent: {}
+[62.106978] (-) TimerEvent: {}
+[62.208045] (-) TimerEvent: {}
+[62.309095] (-) TimerEvent: {}
+[62.410067] (-) TimerEvent: {}
+[62.510388] (-) TimerEvent: {}
+[62.610817] (-) TimerEvent: {}
+[62.711295] (-) TimerEvent: {}
+[62.811653] (-) TimerEvent: {}
+[62.912023] (-) TimerEvent: {}
+[63.012380] (-) TimerEvent: {}
+[63.112712] (-) TimerEvent: {}
+[63.213019] (-) TimerEvent: {}
+[63.313370] (-) TimerEvent: {}
+[63.413798] (-) TimerEvent: {}
+[63.514353] (-) TimerEvent: {}
+[63.614715] (-) TimerEvent: {}
+[63.715067] (-) TimerEvent: {}
+[63.815425] (-) TimerEvent: {}
+[63.915924] (-) TimerEvent: {}
+[64.016344] (-) TimerEvent: {}
+[64.116706] (-) TimerEvent: {}
+[64.217073] (-) TimerEvent: {}
+[64.317428] (-) TimerEvent: {}
+[64.417797] (-) TimerEvent: {}
+[64.518214] (-) TimerEvent: {}
+[64.618574] (-) TimerEvent: {}
+[64.718944] (-) TimerEvent: {}
+[64.819281] (-) TimerEvent: {}
+[64.919576] (-) TimerEvent: {}
+[65.019948] (-) TimerEvent: {}
+[65.120495] (-) TimerEvent: {}
+[65.221640] (-) TimerEvent: {}
+[65.322723] (-) TimerEvent: {}
+[65.423978] (-) TimerEvent: {}
+[65.525125] (-) TimerEvent: {}
+[65.626267] (-) TimerEvent: {}
+[65.727481] (-) TimerEvent: {}
+[65.828385] (-) TimerEvent: {}
+[65.929088] (-) TimerEvent: {}
+[66.030183] (-) TimerEvent: {}
+[66.131359] (-) TimerEvent: {}
+[66.232737] (-) TimerEvent: {}
+[66.334142] (-) TimerEvent: {}
+[66.435299] (-) TimerEvent: {}
+[66.536283] (-) TimerEvent: {}
+[66.636557] (-) TimerEvent: {}
+[66.736840] (-) TimerEvent: {}
+[66.837117] (-) TimerEvent: {}
+[66.937397] (-) TimerEvent: {}
+[67.037914] (-) TimerEvent: {}
+[67.139038] (-) TimerEvent: {}
+[67.240157] (-) TimerEvent: {}
+[67.341252] (-) TimerEvent: {}
+[67.442372] (-) TimerEvent: {}
+[67.543436] (-) TimerEvent: {}
+[67.644415] (-) TimerEvent: {}
+[67.744966] (-) TimerEvent: {}
+[67.845715] (-) TimerEvent: {}
+[67.946827] (-) TimerEvent: {}
+[68.047940] (-) TimerEvent: {}
+[68.149002] (-) TimerEvent: {}
+[68.250357] (-) TimerEvent: {}
+[68.351549] (-) TimerEvent: {}
+[68.452580] (-) TimerEvent: {}
+[68.552978] (-) TimerEvent: {}
+[68.653361] (-) TimerEvent: {}
+[68.753828] (-) TimerEvent: {}
+[68.854203] (-) TimerEvent: {}
+[68.954580] (-) TimerEvent: {}
+[69.054974] (-) TimerEvent: {}
+[69.155364] (-) TimerEvent: {}
+[69.255725] (-) TimerEvent: {}
+[69.356096] (-) TimerEvent: {}
+[69.456446] (-) TimerEvent: {}
+[69.556848] (-) TimerEvent: {}
+[69.657144] (-) TimerEvent: {}
+[69.757515] (-) TimerEvent: {}
+[69.857851] (-) TimerEvent: {}
+[69.958177] (-) TimerEvent: {}
+[70.058515] (-) TimerEvent: {}
+[70.158872] (-) TimerEvent: {}
+[70.259232] (-) TimerEvent: {}
+[70.359639] (-) TimerEvent: {}
+[70.459999] (-) TimerEvent: {}
+[70.560416] (-) TimerEvent: {}
+[70.660931] (-) TimerEvent: {}
+[70.761290] (-) TimerEvent: {}
+[70.861652] (-) TimerEvent: {}
+[70.962024] (-) TimerEvent: {}
+[71.062372] (-) TimerEvent: {}
+[71.162856] (-) TimerEvent: {}
+[71.263216] (-) TimerEvent: {}
+[71.363562] (-) TimerEvent: {}
+[71.464010] (-) TimerEvent: {}
+[71.564358] (-) TimerEvent: {}
+[71.664707] (-) TimerEvent: {}
+[71.765081] (-) TimerEvent: {}
+[71.865448] (-) TimerEvent: {}
+[71.965834] (-) TimerEvent: {}
+[72.066189] (-) TimerEvent: {}
+[72.166847] (-) TimerEvent: {}
+[72.268075] (-) TimerEvent: {}
+[72.369172] (-) TimerEvent: {}
+[72.470323] (-) TimerEvent: {}
+[72.571432] (-) TimerEvent: {}
+[72.672512] (-) TimerEvent: {}
+[72.773409] (-) TimerEvent: {}
+[72.874056] (-) TimerEvent: {}
+[72.975337] (-) TimerEvent: {}
+[73.076445] (-) TimerEvent: {}
+[73.177916] (-) TimerEvent: {}
+[73.279063] (-) TimerEvent: {}
+[73.380201] (-) TimerEvent: {}
+[73.481360] (-) TimerEvent: {}
+[73.582266] (-) TimerEvent: {}
+[73.682845] (-) TimerEvent: {}
+[73.784000] (-) TimerEvent: {}
+[73.885071] (-) TimerEvent: {}
+[73.986143] (-) TimerEvent: {}
+[74.087337] (-) TimerEvent: {}
+[74.188618] (-) TimerEvent: {}
+[74.289609] (-) TimerEvent: {}
+[74.390044] (-) TimerEvent: {}
+[74.490879] (-) TimerEvent: {}
+[74.592028] (-) TimerEvent: {}
+[74.693024] (-) TimerEvent: {}
+[74.794549] (-) TimerEvent: {}
+[74.895721] (-) TimerEvent: {}
+[74.996971] (-) TimerEvent: {}
+[75.097821] (-) TimerEvent: {}
+[75.198178] (-) TimerEvent: {}
+[75.298745] (-) TimerEvent: {}
+[75.400259] (-) TimerEvent: {}
+[75.501358] (-) TimerEvent: {}
+[75.602457] (-) TimerEvent: {}
+[75.703624] (-) TimerEvent: {}
+[75.804845] (-) TimerEvent: {}
+[75.905879] (-) TimerEvent: {}
+[76.006935] (-) TimerEvent: {}
+[76.107855] (-) TimerEvent: {}
+[76.208501] (-) TimerEvent: {}
+[76.308860] (-) TimerEvent: {}
+[76.409270] (-) TimerEvent: {}
+[76.509615] (-) TimerEvent: {}
+[76.610074] (-) TimerEvent: {}
+[76.710460] (-) TimerEvent: {}
+[76.810830] (-) TimerEvent: {}
+[76.911188] (-) TimerEvent: {}
+[77.011544] (-) TimerEvent: {}
+[77.111828] (-) TimerEvent: {}
+[77.212181] (-) TimerEvent: {}
+[77.312534] (-) TimerEvent: {}
+[77.412892] (-) TimerEvent: {}
+[77.513243] (-) TimerEvent: {}
+[77.613573] (-) TimerEvent: {}
+[77.713920] (-) TimerEvent: {}
+[77.814266] (-) TimerEvent: {}
+[77.914622] (-) TimerEvent: {}
+[78.014996] (-) TimerEvent: {}
+[78.115585] (-) TimerEvent: {}
+[78.216832] (-) TimerEvent: {}
+[78.317978] (-) TimerEvent: {}
+[78.419065] (-) TimerEvent: {}
+[78.520154] (-) TimerEvent: {}
+[78.621260] (-) TimerEvent: {}
+[78.722222] (-) TimerEvent: {}
+[78.822868] (-) TimerEvent: {}
+[78.923541] (-) TimerEvent: {}
+[79.024690] (-) TimerEvent: {}
+[79.125818] (-) TimerEvent: {}
+[79.226936] (-) TimerEvent: {}
+[79.328008] (-) TimerEvent: {}
+[79.429056] (-) TimerEvent: {}
+[79.530025] (-) TimerEvent: {}
+[79.630627] (-) TimerEvent: {}
+[79.731790] (-) TimerEvent: {}
+[79.832991] (-) TimerEvent: {}
+[79.934076] (-) TimerEvent: {}
+[80.034993] (-) TimerEvent: {}
+[80.136182] (-) TimerEvent: {}
+[80.237309] (-) TimerEvent: {}
+[80.338269] (-) TimerEvent: {}
+[80.438817] (-) TimerEvent: {}
+[80.539934] (-) TimerEvent: {}
+[80.640995] (-) TimerEvent: {}
+[80.742296] (-) TimerEvent: {}
+[80.843618] (-) TimerEvent: {}
+[80.944687] (-) TimerEvent: {}
+[81.045544] (-) TimerEvent: {}
+[81.146166] (-) TimerEvent: {}
+[81.247180] (-) TimerEvent: {}
+[81.348198] (-) TimerEvent: {}
+[81.449386] (-) TimerEvent: {}
+[81.550679] (-) TimerEvent: {}
+[81.651831] (-) TimerEvent: {}
+[81.752904] (-) TimerEvent: {}
+[81.853824] (-) TimerEvent: {}
+[81.954417] (-) TimerEvent: {}
+[82.055587] (-) TimerEvent: {}
+[82.157055] (-) TimerEvent: {}
+[82.258098] (-) TimerEvent: {}
+[82.359199] (-) TimerEvent: {}
+[82.460249] (-) TimerEvent: {}
+[82.561143] (-) TimerEvent: {}
+[82.661475] (-) TimerEvent: {}
+[82.761835] (-) TimerEvent: {}
+[82.862184] (-) TimerEvent: {}
+[82.962531] (-) TimerEvent: {}
+[83.062872] (-) TimerEvent: {}
+[83.163219] (-) TimerEvent: {}
+[83.263571] (-) TimerEvent: {}
+[83.363894] (-) TimerEvent: {}
+[83.464195] (-) TimerEvent: {}
+[83.564488] (-) TimerEvent: {}
+[83.664853] (-) TimerEvent: {}
+[83.765204] (-) TimerEvent: {}
+[83.865540] (-) TimerEvent: {}
+[83.965820] (-) TimerEvent: {}
+[84.066229] (-) TimerEvent: {}
+[84.166991] (-) TimerEvent: {}
+[84.268258] (-) TimerEvent: {}
+[84.370511] (-) TimerEvent: {}
+[84.473203] (-) TimerEvent: {}
+[84.576300] (-) TimerEvent: {}
+[84.679369] (-) TimerEvent: {}
+[84.780834] (-) TimerEvent: {}
+[84.881531] (-) TimerEvent: {}
+[84.983373] (-) TimerEvent: {}
+[85.086085] (-) TimerEvent: {}
+[85.187639] (-) TimerEvent: {}
+[85.291874] (-) TimerEvent: {}
+[85.394914] (-) TimerEvent: {}
+[85.495850] (-) TimerEvent: {}
+[85.596404] (-) TimerEvent: {}
+[85.696762] (-) TimerEvent: {}
+[85.797111] (-) TimerEvent: {}
+[85.897498] (-) TimerEvent: {}
+[85.998024] (-) TimerEvent: {}
+[86.098415] (-) TimerEvent: {}
+[86.198774] (-) TimerEvent: {}
+[86.299155] (-) TimerEvent: {}
+[86.399569] (-) TimerEvent: {}
+[86.499858] (-) TimerEvent: {}
+[86.600204] (-) TimerEvent: {}
+[86.700549] (-) TimerEvent: {}
+[86.800894] (-) TimerEvent: {}
+[86.901293] (-) TimerEvent: {}
+[87.001990] (-) TimerEvent: {}
+[87.103083] (-) TimerEvent: {}
+[87.204558] (-) TimerEvent: {}
+[87.307048] (-) TimerEvent: {}
+[87.408615] (-) TimerEvent: {}
+[87.509655] (-) TimerEvent: {}
+[87.610678] (-) TimerEvent: {}
+[87.711569] (-) TimerEvent: {}
+[87.812145] (-) TimerEvent: {}
+[87.913162] (-) TimerEvent: {}
+[88.014227] (-) TimerEvent: {}
+[88.115312] (-) TimerEvent: {}
+[88.216446] (-) TimerEvent: {}
+[88.317510] (-) TimerEvent: {}
+[88.418458] (-) TimerEvent: {}
+[88.519314] (-) TimerEvent: {}
+[88.621626] (-) TimerEvent: {}
+[88.723010] (-) TimerEvent: {}
+[88.824122] (-) TimerEvent: {}
+[88.925236] (-) TimerEvent: {}
+[89.026368] (-) TimerEvent: {}
+[89.127457] (-) TimerEvent: {}
+[89.228514] (-) TimerEvent: {}
+[89.329205] (-) TimerEvent: {}
+[89.430281] (-) TimerEvent: {}
+[89.531323] (-) TimerEvent: {}
+[89.632533] (-) TimerEvent: {}
+[89.733737] (-) TimerEvent: {}
+[89.834971] (-) TimerEvent: {}
+[89.935813] (-) TimerEvent: {}
+[90.036223] (-) TimerEvent: {}
+[90.136629] (-) TimerEvent: {}
+[90.237318] (-) TimerEvent: {}
+[90.338347] (-) TimerEvent: {}
+[90.439376] (-) TimerEvent: {}
+[90.540881] (-) TimerEvent: {}
+[90.643070] (-) TimerEvent: {}
+[90.746239] (-) TimerEvent: {}
+[90.848981] (-) TimerEvent: {}
+[90.950181] (-) TimerEvent: {}
+[91.053165] (-) TimerEvent: {}
+[91.156233] (-) TimerEvent: {}
+[91.258010] (-) TimerEvent: {}
+[91.360589] (-) TimerEvent: {}
+[91.465147] (-) TimerEvent: {}
+[91.569801] (-) TimerEvent: {}
+[91.671695] (-) TimerEvent: {}
+[91.772259] (-) TimerEvent: {}
+[91.873356] (-) TimerEvent: {}
+[91.974622] (-) TimerEvent: {}
+[92.075823] (-) TimerEvent: {}
+[92.177121] (-) TimerEvent: {}
+[92.278183] (-) TimerEvent: {}
+[92.379096] (-) TimerEvent: {}
+[92.479535] (-) TimerEvent: {}
+[92.580334] (-) TimerEvent: {}
+[92.681535] (-) TimerEvent: {}
+[92.782610] (-) TimerEvent: {}
+[92.883652] (-) TimerEvent: {}
+[92.984642] (-) TimerEvent: {}
+[93.085800] (-) TimerEvent: {}
+[93.186739] (-) TimerEvent: {}
+[93.287297] (-) TimerEvent: {}
+[93.388434] (-) TimerEvent: {}
+[93.489428] (-) TimerEvent: {}
+[93.590418] (-) TimerEvent: {}
+[93.691451] (-) TimerEvent: {}
+[93.792461] (-) TimerEvent: {}
+[93.893512] (-) TimerEvent: {}
+[93.994152] (-) TimerEvent: {}
+[94.094843] (-) TimerEvent: {}
+[94.196062] (-) TimerEvent: {}
+[94.297154] (-) TimerEvent: {}
+[94.398264] (-) TimerEvent: {}
+[94.499377] (-) TimerEvent: {}
+[94.600470] (-) TimerEvent: {}
+[94.701306] (-) TimerEvent: {}
+[94.801618] (-) TimerEvent: {}
+[94.902008] (-) TimerEvent: {}
+[95.002398] (-) TimerEvent: {}
+[95.102823] (-) TimerEvent: {}
+[95.203148] (-) TimerEvent: {}
+[95.303495] (-) TimerEvent: {}
+[95.403840] (-) TimerEvent: {}
+[95.504264] (-) TimerEvent: {}
+[95.604771] (-) TimerEvent: {}
+[95.705123] (-) TimerEvent: {}
+[95.805465] (-) TimerEvent: {}
+[95.905876] (-) TimerEvent: {}
+[96.006390] (-) TimerEvent: {}
+[96.107555] (-) TimerEvent: {}
+[96.208682] (-) TimerEvent: {}
+[96.309874] (-) TimerEvent: {}
+[96.410981] (-) TimerEvent: {}
+[96.512581] (-) TimerEvent: {}
+[96.614463] (-) TimerEvent: {}
+[96.715025] (-) TimerEvent: {}
+[96.816102] (-) TimerEvent: {}
+[96.917195] (-) TimerEvent: {}
+[97.018509] (-) TimerEvent: {}
+[97.119515] (-) TimerEvent: {}
+[97.220557] (-) TimerEvent: {}
+[97.321655] (-) TimerEvent: {}
+[97.422501] (-) TimerEvent: {}
+[97.522857] (-) TimerEvent: {}
+[97.623360] (-) TimerEvent: {}
+[97.724390] (-) TimerEvent: {}
+[97.825454] (-) TimerEvent: {}
+[97.926538] (-) TimerEvent: {}
+[98.027687] (-) TimerEvent: {}
+[98.128730] (-) TimerEvent: {}
+[98.229582] (-) TimerEvent: {}
+[98.330061] (-) TimerEvent: {}
+[98.430868] (-) TimerEvent: {}
+[98.532002] (-) TimerEvent: {}
+[98.633117] (-) TimerEvent: {}
+[98.734167] (-) TimerEvent: {}
+[98.835209] (-) TimerEvent: {}
+[98.936249] (-) TimerEvent: {}
+[99.037169] (-) TimerEvent: {}
+[99.137702] (-) TimerEvent: {}
+[99.238842] (-) TimerEvent: {}
+[99.339900] (-) TimerEvent: {}
+[99.440981] (-) TimerEvent: {}
+[99.542036] (-) TimerEvent: {}
+[99.643000] (-) TimerEvent: {}
+[99.743940] (-) TimerEvent: {}
+[99.844552] (-) TimerEvent: {}
+[99.945058] (-) TimerEvent: {}
+[100.046107] (-) TimerEvent: {}
+[100.147058] (-) TimerEvent: {}
+[100.248060] (-) TimerEvent: {}
+[100.349216] (-) TimerEvent: {}
+[100.450273] (-) TimerEvent: {}
+[100.551265] (-) TimerEvent: {}
+[100.651622] (-) TimerEvent: {}
+[100.752266] (-) TimerEvent: {}
+[100.853323] (-) TimerEvent: {}
+[100.954402] (-) TimerEvent: {}
+[101.055498] (-) TimerEvent: {}
+[101.156575] (-) TimerEvent: {}
+[101.257648] (-) TimerEvent: {}
+[101.358683] (-) TimerEvent: {}
+[101.459718] (-) TimerEvent: {}
+[101.560900] (-) TimerEvent: {}
+[101.661727] (-) TimerEvent: {}
+[101.762093] (-) TimerEvent: {}
+[101.862434] (-) TimerEvent: {}
+[101.962825] (-) TimerEvent: {}
+[102.063291] (-) TimerEvent: {}
+[102.163700] (-) TimerEvent: {}
+[102.264134] (-) TimerEvent: {}
+[102.364588] (-) TimerEvent: {}
+[102.464947] (-) TimerEvent: {}
+[102.565294] (-) TimerEvent: {}
+[102.665635] (-) TimerEvent: {}
+[102.765994] (-) TimerEvent: {}
+[102.866315] (-) TimerEvent: {}
+[102.966599] (-) TimerEvent: {}
+[103.066959] (-) TimerEvent: {}
+[103.167299] (-) TimerEvent: {}
+[103.267640] (-) TimerEvent: {}
+[103.368084] (-) TimerEvent: {}
+[103.468493] (-) TimerEvent: {}
+[103.568842] (-) TimerEvent: {}
+[103.669189] (-) TimerEvent: {}
+[103.769532] (-) TimerEvent: {}
+[103.869877] (-) TimerEvent: {}
+[103.970423] (-) TimerEvent: {}
+[104.070981] (-) TimerEvent: {}
+[104.172025] (-) TimerEvent: {}
+[104.273047] (-) TimerEvent: {}
+[104.374302] (-) TimerEvent: {}
+[104.475406] (-) TimerEvent: {}
+[104.576515] (-) TimerEvent: {}
+[104.677598] (-) TimerEvent: {}
+[104.778523] (-) TimerEvent: {}
+[104.879069] (-) TimerEvent: {}
+[104.980322] (-) TimerEvent: {}
+[105.081535] (-) TimerEvent: {}
+[105.183015] (-) TimerEvent: {}
+[105.285039] (-) TimerEvent: {}
+[105.388690] (-) TimerEvent: {}
+[105.491229] (-) TimerEvent: {}
+[105.591654] (-) TimerEvent: {}
+[105.692080] (-) TimerEvent: {}
+[105.792431] (-) TimerEvent: {}
+[105.892880] (-) TimerEvent: {}
+[105.993301] (-) TimerEvent: {}
+[106.093654] (-) TimerEvent: {}
+[106.194029] (-) TimerEvent: {}
+[106.294400] (-) TimerEvent: {}
+[106.394880] (-) TimerEvent: {}
+[106.495204] (-) TimerEvent: {}
+[106.595456] (-) TimerEvent: {}
+[106.695809] (-) TimerEvent: {}
+[106.796161] (-) TimerEvent: {}
+[106.896519] (-) TimerEvent: {}
+[106.997082] (-) TimerEvent: {}
+[107.098199] (-) TimerEvent: {}
+[107.199374] (-) TimerEvent: {}
+[107.300558] (-) TimerEvent: {}
+[107.401702] (-) TimerEvent: {}
+[107.502684] (-) TimerEvent: {}
+[107.603541] (-) TimerEvent: {}
+[107.703943] (-) TimerEvent: {}
+[107.804664] (-) TimerEvent: {}
+[107.905859] (-) TimerEvent: {}
+[108.006977] (-) TimerEvent: {}
+[108.107999] (-) TimerEvent: {}
+[108.209010] (-) TimerEvent: {}
+[108.309997] (-) TimerEvent: {}
+[108.410848] (-) TimerEvent: {}
+[108.511208] (-) TimerEvent: {}
+[108.611696] (-) TimerEvent: {}
+[108.712737] (-) TimerEvent: {}
+[108.813692] (-) TimerEvent: {}
+[108.914812] (-) TimerEvent: {}
+[109.015922] (-) TimerEvent: {}
+[109.117132] (-) TimerEvent: {}
+[109.218172] (-) TimerEvent: {}
+[109.319271] (-) TimerEvent: {}
+[109.420225] (-) TimerEvent: {}
+[109.520614] (-) TimerEvent: {}
+[109.621016] (-) TimerEvent: {}
+[109.721368] (-) TimerEvent: {}
+[109.821709] (-) TimerEvent: {}
+[109.922070] (-) TimerEvent: {}
+[110.022466] (-) TimerEvent: {}
+[110.122816] (-) TimerEvent: {}
+[110.223160] (-) TimerEvent: {}
+[110.323505] (-) TimerEvent: {}
+[110.423811] (-) TimerEvent: {}
+[110.524106] (-) TimerEvent: {}
+[110.624458] (-) TimerEvent: {}
+[110.724884] (-) TimerEvent: {}
+[110.825353] (-) TimerEvent: {}
+[110.925700] (-) TimerEvent: {}
+[111.026145] (-) TimerEvent: {}
+[111.127005] (-) TimerEvent: {}
+[111.228041] (-) TimerEvent: {}
+[111.329217] (-) TimerEvent: {}
+[111.430279] (-) TimerEvent: {}
+[111.531454] (-) TimerEvent: {}
+[111.632575] (-) TimerEvent: {}
+[111.733459] (-) TimerEvent: {}
+[111.834036] (-) TimerEvent: {}
+[111.935051] (-) TimerEvent: {}
+[112.036255] (-) TimerEvent: {}
+[112.137426] (-) TimerEvent: {}
+[112.238547] (-) TimerEvent: {}
+[112.339597] (-) TimerEvent: {}
+[112.440646] (-) TimerEvent: {}
+[112.541206] (-) TimerEvent: {}
+[112.641546] (-) TimerEvent: {}
+[112.741894] (-) TimerEvent: {}
+[112.842232] (-) TimerEvent: {}
+[112.942804] (-) TimerEvent: {}
+[113.043746] (-) TimerEvent: {}
+[113.144876] (-) TimerEvent: {}
+[113.245893] (-) TimerEvent: {}
+[113.347423] (-) TimerEvent: {}
+[113.449689] (-) TimerEvent: {}
+[113.550908] (-) TimerEvent: {}
+[113.651786] (-) TimerEvent: {}
+[113.752895] (-) TimerEvent: {}
+[113.854131] (-) TimerEvent: {}
+[113.956102] (-) TimerEvent: {}
+[114.060806] (-) TimerEvent: {}
+[114.164623] (-) TimerEvent: {}
+[114.267775] (-) TimerEvent: {}
+[114.370411] (-) TimerEvent: {}
+[114.470740] (-) TimerEvent: {}
+[114.571122] (-) TimerEvent: {}
+[114.671446] (-) TimerEvent: {}
+[114.771782] (-) TimerEvent: {}
+[114.872103] (-) TimerEvent: {}
+[114.972434] (-) TimerEvent: {}
+[115.072771] (-) TimerEvent: {}
+[115.173092] (-) TimerEvent: {}
+[115.273782] (-) TimerEvent: {}
+[115.374888] (-) TimerEvent: {}
+[115.475277] (-) TimerEvent: {}
+[115.575649] (-) TimerEvent: {}
+[115.675929] (-) TimerEvent: {}
+[115.776330] (-) TimerEvent: {}
+[115.876799] (-) TimerEvent: {}
+[115.977315] (-) TimerEvent: {}
+[116.078424] (-) TimerEvent: {}
+[116.179580] (-) TimerEvent: {}
+[116.280799] (-) TimerEvent: {}
+[116.382185] (-) TimerEvent: {}
+[116.483362] (-) TimerEvent: {}
+[116.584272] (-) TimerEvent: {}
+[116.684665] (-) TimerEvent: {}
+[116.786182] (-) TimerEvent: {}
+[116.888419] (-) TimerEvent: {}
+[116.989804] (-) TimerEvent: {}
+[117.091417] (-) TimerEvent: {}
+[117.192505] (-) TimerEvent: {}
+[117.293580] (-) TimerEvent: {}
+[117.394533] (-) TimerEvent: {}
+[117.495007] (-) TimerEvent: {}
+[117.595515] (-) TimerEvent: {}
+[117.696588] (-) TimerEvent: {}
+[117.797687] (-) TimerEvent: {}
+[117.898819] (-) TimerEvent: {}
+[117.999851] (-) TimerEvent: {}
+[118.100963] (-) TimerEvent: {}
+[118.201804] (-) TimerEvent: {}
+[118.302296] (-) TimerEvent: {}
+[118.402978] (-) TimerEvent: {}
+[118.505514] (-) TimerEvent: {}
+[118.607799] (-) TimerEvent: {}
+[118.712737] (-) TimerEvent: {}
+[118.814871] (-) TimerEvent: {}
+[118.921252] (-) TimerEvent: {}
+[119.022552] (-) TimerEvent: {}
+[119.123152] (-) TimerEvent: {}
+[119.224390] (-) TimerEvent: {}
+[119.325605] (-) TimerEvent: {}
+[119.426682] (-) TimerEvent: {}
+[119.527789] (-) TimerEvent: {}
+[119.628851] (-) TimerEvent: {}
+[119.729946] (-) TimerEvent: {}
+[119.830800] (-) TimerEvent: {}
+[119.931373] (-) TimerEvent: {}
+[120.032513] (-) TimerEvent: {}
+[120.133497] (-) TimerEvent: {}
+[120.234645] (-) TimerEvent: {}
+[120.335740] (-) TimerEvent: {}
+[120.436848] (-) TimerEvent: {}
+[120.537655] (-) TimerEvent: {}
+[120.638050] (-) TimerEvent: {}
+[120.738401] (-) TimerEvent: {}
+[120.838730] (-) TimerEvent: {}
+[120.939310] (-) TimerEvent: {}
+[121.040340] (-) TimerEvent: {}
+[121.141457] (-) TimerEvent: {}
+[121.242611] (-) TimerEvent: {}
+[121.343783] (-) TimerEvent: {}
+[121.444977] (-) TimerEvent: {}
+[121.546139] (-) TimerEvent: {}
+[121.647113] (-) TimerEvent: {}
+[121.747662] (-) TimerEvent: {}
+[121.848710] (-) TimerEvent: {}
+[121.950001] (-) TimerEvent: {}
+[122.051028] (-) TimerEvent: {}
+[122.152059] (-) TimerEvent: {}
+[122.253333] (-) TimerEvent: {}
+[122.354190] (-) TimerEvent: {}
+[122.454548] (-) TimerEvent: {}
+[122.555155] (-) TimerEvent: {}
+[122.656145] (-) TimerEvent: {}
+[122.757348] (-) TimerEvent: {}
+[122.858394] (-) TimerEvent: {}
+[122.959536] (-) TimerEvent: {}
+[123.060642] (-) TimerEvent: {}
+[123.162075] (-) TimerEvent: {}
+[123.262899] (-) TimerEvent: {}
+[123.363395] (-) TimerEvent: {}
+[123.464537] (-) TimerEvent: {}
+[123.565917] (-) TimerEvent: {}
+[123.666971] (-) TimerEvent: {}
+[123.768034] (-) TimerEvent: {}
+[123.870387] (-) TimerEvent: {}
+[123.972539] (-) TimerEvent: {}
+[124.073039] (-) TimerEvent: {}
+[124.173435] (-) TimerEvent: {}
+[124.273757] (-) TimerEvent: {}
+[124.374032] (-) TimerEvent: {}
+[124.474351] (-) TimerEvent: {}
+[124.574665] (-) TimerEvent: {}
+[124.675005] (-) TimerEvent: {}
+[124.775405] (-) TimerEvent: {}
+[124.875872] (-) TimerEvent: {}
+[124.976564] (-) TimerEvent: {}
+[125.077704] (-) TimerEvent: {}
+[125.179002] (-) TimerEvent: {}
+[125.280105] (-) TimerEvent: {}
+[125.381132] (-) TimerEvent: {}
+[125.482157] (-) TimerEvent: {}
+[125.582996] (-) TimerEvent: {}
+[125.683468] (-) TimerEvent: {}
+[125.784882] (-) TimerEvent: {}
+[125.885935] (-) TimerEvent: {}
+[125.987237] (-) TimerEvent: {}
+[126.088838] (-) TimerEvent: {}
+[126.190683] (-) TimerEvent: {}
+[126.292356] (-) TimerEvent: {}
+[126.393362] (-) TimerEvent: {}
+[126.493705] (-) TimerEvent: {}
+[126.594065] (-) TimerEvent: {}
+[126.694412] (-) TimerEvent: {}
+[126.794778] (-) TimerEvent: {}
+[126.895169] (-) TimerEvent: {}
+[126.995505] (-) TimerEvent: {}
+[127.096051] (-) TimerEvent: {}
+[127.196451] (-) TimerEvent: {}
+[127.296828] (-) TimerEvent: {}
+[127.397238] (-) TimerEvent: {}
+[127.497581] (-) TimerEvent: {}
+[127.597947] (-) TimerEvent: {}
+[127.698372] (-) TimerEvent: {}
+[127.798719] (-) TimerEvent: {}
+[127.899159] (-) TimerEvent: {}
+[127.999512] (-) TimerEvent: {}
+[128.099850] (-) TimerEvent: {}
+[128.200200] (-) TimerEvent: {}
+[128.300545] (-) TimerEvent: {}
+[128.400854] (-) TimerEvent: {}
+[128.501243] (-) TimerEvent: {}
+[128.601590] (-) TimerEvent: {}
+[128.701950] (-) TimerEvent: {}
+[128.802294] (-) TimerEvent: {}
+[128.902727] (-) TimerEvent: {}
+[129.003505] (-) TimerEvent: {}
+[129.104651] (-) TimerEvent: {}
+[129.205811] (-) TimerEvent: {}
+[129.306821] (-) TimerEvent: {}
+[129.408379] (-) TimerEvent: {}
+[129.511149] (-) TimerEvent: {}
+[129.612403] (-) TimerEvent: {}
+[129.714026] (-) TimerEvent: {}
+[129.816962] (-) TimerEvent: {}
+[129.919394] (-) TimerEvent: {}
+[130.023486] (-) TimerEvent: {}
+[130.125258] (-) TimerEvent: {}
+[130.227621] (-) TimerEvent: {}
+[130.330335] (-) TimerEvent: {}
+[130.430652] (-) TimerEvent: {}
+[130.531037] (-) TimerEvent: {}
+[130.631467] (-) TimerEvent: {}
+[130.731736] (-) TimerEvent: {}
+[130.832064] (-) TimerEvent: {}
+[130.932458] (-) TimerEvent: {}
+[131.033004] (-) TimerEvent: {}
+[131.133360] (-) TimerEvent: {}
+[131.233652] (-) TimerEvent: {}
+[131.334013] (-) TimerEvent: {}
+[131.434304] (-) TimerEvent: {}
+[131.534647] (-) TimerEvent: {}
+[131.635020] (-) TimerEvent: {}
+[131.735330] (-) TimerEvent: {}
+[131.835595] (-) TimerEvent: {}
+[131.936174] (-) TimerEvent: {}
+[132.037301] (-) TimerEvent: {}
+[132.138439] (-) TimerEvent: {}
+[132.239412] (-) TimerEvent: {}
+[132.340382] (-) TimerEvent: {}
+[132.441468] (-) TimerEvent: {}
+[132.542455] (-) TimerEvent: {}
+[132.643188] (-) TimerEvent: {}
+[132.744015] (-) TimerEvent: {}
+[132.844990] (-) TimerEvent: {}
+[132.946050] (-) TimerEvent: {}
+[133.047310] (-) TimerEvent: {}
+[133.148390] (-) TimerEvent: {}
+[133.249453] (-) TimerEvent: {}
+[133.350322] (-) TimerEvent: {}
+[133.450687] (-) TimerEvent: {}
+[133.551250] (-) TimerEvent: {}
+[133.652286] (-) TimerEvent: {}
+[133.753275] (-) TimerEvent: {}
+[133.854283] (-) TimerEvent: {}
+[133.955352] (-) TimerEvent: {}
+[134.056480] (-) TimerEvent: {}
+[134.157483] (-) TimerEvent: {}
+[134.258368] (-) TimerEvent: {}
+[134.359078] (-) TimerEvent: {}
+[134.460138] (-) TimerEvent: {}
+[134.561274] (-) TimerEvent: {}
+[134.662295] (-) TimerEvent: {}
+[134.763321] (-) TimerEvent: {}
+[134.864403] (-) TimerEvent: {}
+[134.965346] (-) TimerEvent: {}
+[135.065801] (-) TimerEvent: {}
+[135.166471] (-) TimerEvent: {}
+[135.267740] (-) TimerEvent: {}
+[135.368852] (-) TimerEvent: {}
+[135.470640] (-) TimerEvent: {}
+[135.573273] (-) TimerEvent: {}
+[135.675675] (-) TimerEvent: {}
+[135.776629] (-) TimerEvent: {}
+[135.877323] (-) TimerEvent: {}
+[135.978371] (-) TimerEvent: {}
+[136.079439] (-) TimerEvent: {}
+[136.180533] (-) TimerEvent: {}
+[136.281736] (-) TimerEvent: {}
+[136.383656] (-) TimerEvent: {}
+[136.484770] (-) TimerEvent: {}
+[136.585297] (-) TimerEvent: {}
+[136.685691] (-) TimerEvent: {}
+[136.787568] (-) TimerEvent: {}
+[136.891275] (-) TimerEvent: {}
+[136.994085] (-) TimerEvent: {}
+[137.097401] (-) TimerEvent: {}
+[137.201730] (-) TimerEvent: {}
+[137.306023] (-) TimerEvent: {}
+[137.408960] (-) TimerEvent: {}
+[137.510784] (-) TimerEvent: {}
+[137.611964] (-) TimerEvent: {}
+[137.712284] (-) TimerEvent: {}
+[137.813149] (-) TimerEvent: {}
+[137.916851] (-) TimerEvent: {}
+[138.019486] (-) TimerEvent: {}
+[138.120963] (-) TimerEvent: {}
+[138.222247] (-) TimerEvent: {}
+[138.323473] (-) TimerEvent: {}
+[138.424440] (-) TimerEvent: {}
+[138.524987] (-) TimerEvent: {}
+[138.625482] (-) TimerEvent: {}
+[138.726485] (-) TimerEvent: {}
+[138.827496] (-) TimerEvent: {}
+[138.928529] (-) TimerEvent: {}
+[139.029626] (-) TimerEvent: {}
+[139.130829] (-) TimerEvent: {}
+[139.231621] (-) TimerEvent: {}
+[139.332172] (-) TimerEvent: {}
+[139.433181] (-) TimerEvent: {}
+[139.534182] (-) TimerEvent: {}
+[139.635233] (-) TimerEvent: {}
+[139.736324] (-) TimerEvent: {}
+[139.837358] (-) TimerEvent: {}
+[139.938351] (-) TimerEvent: {}
+[140.039250] (-) TimerEvent: {}
+[140.139716] (-) TimerEvent: {}
+[140.240820] (-) TimerEvent: {}
+[140.341836] (-) TimerEvent: {}
+[140.442871] (-) TimerEvent: {}
+[140.544009] (-) TimerEvent: {}
+[140.645145] (-) TimerEvent: {}
+[140.746004] (-) TimerEvent: {}
+[140.846386] (-) TimerEvent: {}
+[140.946735] (-) TimerEvent: {}
+[141.047133] (-) TimerEvent: {}
+[141.147404] (-) TimerEvent: {}
+[141.247765] (-) TimerEvent: {}
+[141.348209] (-) TimerEvent: {}
+[141.448575] (-) TimerEvent: {}
+[141.548966] (-) TimerEvent: {}
+[141.649312] (-) TimerEvent: {}
+[141.749661] (-) TimerEvent: {}
+[141.850016] (-) TimerEvent: {}
+[141.950329] (-) TimerEvent: {}
+[142.050636] (-) TimerEvent: {}
+[142.151032] (-) TimerEvent: {}
+[142.251319] (-) TimerEvent: {}
+[142.351919] (-) TimerEvent: {}
+[142.452658] (-) TimerEvent: {}
+[142.553021] (-) TimerEvent: {}
+[142.653399] (-) TimerEvent: {}
+[142.753810] (-) TimerEvent: {}
+[142.854121] (-) TimerEvent: {}
+[142.954459] (-) TimerEvent: {}
+[143.055176] (-) TimerEvent: {}
+[143.156423] (-) TimerEvent: {}
+[143.257448] (-) TimerEvent: {}
+[143.358941] (-) TimerEvent: {}
+[143.461055] (-) TimerEvent: {}
+[143.563797] (-) TimerEvent: {}
+[143.665038] (-) TimerEvent: {}
+[143.765823] (-) TimerEvent: {}
+[143.868471] (-) TimerEvent: {}
+[143.972390] (-) TimerEvent: {}
+[144.076253] (-) TimerEvent: {}
+[144.177251] (-) TimerEvent: {}
+[144.278820] (-) TimerEvent: {}
+[144.380631] (-) TimerEvent: {}
+[144.481500] (-) TimerEvent: {}
+[144.581852] (-) TimerEvent: {}
+[144.682202] (-) TimerEvent: {}
+[144.782546] (-) TimerEvent: {}
+[144.882983] (-) TimerEvent: {}
+[144.983714] (-) TimerEvent: {}
+[145.084690] (-) TimerEvent: {}
+[145.185809] (-) TimerEvent: {}
+[145.286990] (-) TimerEvent: {}
+[145.388020] (-) TimerEvent: {}
+[145.489044] (-) TimerEvent: {}
+[145.589934] (-) TimerEvent: {}
+[145.690549] (-) TimerEvent: {}
+[145.791924] (-) TimerEvent: {}
+[145.893047] (-) TimerEvent: {}
+[145.994186] (-) TimerEvent: {}
+[146.095253] (-) TimerEvent: {}
+[146.196457] (-) TimerEvent: {}
+[146.297748] (-) TimerEvent: {}
+[146.398637] (-) TimerEvent: {}
+[146.499343] (-) TimerEvent: {}
+[146.600510] (-) TimerEvent: {}
+[146.701619] (-) TimerEvent: {}
+[146.802894] (-) TimerEvent: {}
+[146.904029] (-) TimerEvent: {}
+[147.005055] (-) TimerEvent: {}
+[147.106033] (-) TimerEvent: {}
+[147.206578] (-) TimerEvent: {}
+[147.307988] (-) TimerEvent: {}
+[147.409066] (-) TimerEvent: {}
+[147.510079] (-) TimerEvent: {}
+[147.611139] (-) TimerEvent: {}
+[147.712226] (-) TimerEvent: {}
+[147.813453] (-) TimerEvent: {}
+[147.914321] (-) TimerEvent: {}
+[148.014661] (-) TimerEvent: {}
+[148.115253] (-) TimerEvent: {}
+[148.216304] (-) TimerEvent: {}
+[148.317361] (-) TimerEvent: {}
+[148.418423] (-) TimerEvent: {}
+[148.519513] (-) TimerEvent: {}
+[148.620613] (-) TimerEvent: {}
+[148.721655] (-) TimerEvent: {}
+[148.822185] (-) TimerEvent: {}
+[148.922947] (-) TimerEvent: {}
+[149.023988] (-) TimerEvent: {}
+[149.125134] (-) TimerEvent: {}
+[149.226207] (-) TimerEvent: {}
+[149.327254] (-) TimerEvent: {}
+[149.428347] (-) TimerEvent: {}
+[149.529359] (-) TimerEvent: {}
+[149.629703] (-) TimerEvent: {}
+[149.730035] (-) TimerEvent: {}
+[149.830335] (-) TimerEvent: {}
+[149.930911] (-) TimerEvent: {}
+[150.031947] (-) TimerEvent: {}
+[150.133011] (-) TimerEvent: {}
+[150.234096] (-) TimerEvent: {}
+[150.335148] (-) TimerEvent: {}
+[150.436198] (-) TimerEvent: {}
+[150.537124] (-) TimerEvent: {}
+[150.637596] (-) TimerEvent: {}
+[150.738730] (-) TimerEvent: {}
+[150.841098] (-) TimerEvent: {}
+[150.942196] (-) TimerEvent: {}
+[151.043348] (-) TimerEvent: {}
+[151.144416] (-) TimerEvent: {}
+[151.245648] (-) TimerEvent: {}
+[151.346538] (-) TimerEvent: {}
+[151.446895] (-) TimerEvent: {}
+[151.547240] (-) TimerEvent: {}
+[151.647581] (-) TimerEvent: {}
+[151.747936] (-) TimerEvent: {}
+[151.848305] (-) TimerEvent: {}
+[151.948634] (-) TimerEvent: {}
+[152.048991] (-) TimerEvent: {}
+[152.149316] (-) TimerEvent: {}
+[152.249665] (-) TimerEvent: {}
+[152.350050] (-) TimerEvent: {}
+[152.450447] (-) TimerEvent: {}
+[152.550933] (-) TimerEvent: {}
+[152.651246] (-) TimerEvent: {}
+[152.751557] (-) TimerEvent: {}
+[152.851888] (-) TimerEvent: {}
+[152.952217] (-) TimerEvent: {}
+[153.052563] (-) TimerEvent: {}
+[153.152960] (-) TimerEvent: {}
+[153.253411] (-) TimerEvent: {}
+[153.353728] (-) TimerEvent: {}
+[153.454090] (-) TimerEvent: {}
+[153.554430] (-) TimerEvent: {}
+[153.654785] (-) TimerEvent: {}
+[153.755169] (-) TimerEvent: {}
+[153.855654] (-) TimerEvent: {}
+[153.956199] (-) TimerEvent: {}
+[154.057345] (-) TimerEvent: {}
+[154.158363] (-) TimerEvent: {}
+[154.259969] (-) TimerEvent: {}
+[154.362013] (-) TimerEvent: {}
+[154.463182] (-) TimerEvent: {}
+[154.564110] (-) TimerEvent: {}
+[154.664397] (-) TimerEvent: {}
+[154.765439] (-) TimerEvent: {}
+[154.869457] (-) TimerEvent: {}
+[154.973856] (-) TimerEvent: {}
+[155.078501] (-) TimerEvent: {}
+[155.184464] (-) TimerEvent: {}
+[155.287702] (-) TimerEvent: {}
+[155.390497] (-) TimerEvent: {}
+[155.490914] (-) TimerEvent: {}
+[155.591614] (-) TimerEvent: {}
+[155.692738] (-) TimerEvent: {}
+[155.793827] (-) TimerEvent: {}
+[155.895089] (-) TimerEvent: {}
+[155.996983] (-) TimerEvent: {}
+[156.098034] (-) TimerEvent: {}
+[156.198812] (-) TimerEvent: {}
+[156.299233] (-) TimerEvent: {}
+[156.400325] (-) TimerEvent: {}
+[156.501559] (-) TimerEvent: {}
+[156.602707] (-) TimerEvent: {}
+[156.704023] (-) TimerEvent: {}
+[156.804997] (-) TimerEvent: {}
+[156.906139] (-) TimerEvent: {}
+[157.007313] (-) TimerEvent: {}
+[157.107876] (-) TimerEvent: {}
+[157.209025] (-) TimerEvent: {}
+[157.310142] (-) TimerEvent: {}
+[157.411855] (-) TimerEvent: {}
+[157.513496] (-) TimerEvent: {}
+[157.615955] (-) TimerEvent: {}
+[157.716833] (-) TimerEvent: {}
+[157.817328] (-) TimerEvent: {}
+[157.918607] (-) TimerEvent: {}
+[158.019726] (-) TimerEvent: {}
+[158.120871] (-) TimerEvent: {}
+[158.221896] (-) TimerEvent: {}
+[158.323077] (-) TimerEvent: {}
+[158.424179] (-) TimerEvent: {}
+[158.525062] (-) TimerEvent: {}
+[158.625424] (-) TimerEvent: {}
+[158.725776] (-) TimerEvent: {}
+[158.826120] (-) TimerEvent: {}
+[158.926463] (-) TimerEvent: {}
+[159.026867] (-) TimerEvent: {}
+[159.127223] (-) TimerEvent: {}
+[159.227572] (-) TimerEvent: {}
+[159.327946] (-) TimerEvent: {}
+[159.428268] (-) TimerEvent: {}
+[159.528577] (-) TimerEvent: {}
+[159.628936] (-) TimerEvent: {}
+[159.729280] (-) TimerEvent: {}
+[159.829645] (-) TimerEvent: {}
+[159.930061] (-) TimerEvent: {}
+[160.031064] (-) TimerEvent: {}
+[160.132014] (-) TimerEvent: {}
+[160.233069] (-) TimerEvent: {}
+[160.334138] (-) TimerEvent: {}
+[160.435243] (-) TimerEvent: {}
+[160.536292] (-) TimerEvent: {}
+[160.636995] (-) TimerEvent: {}
+[160.738050] (-) TimerEvent: {}
+[160.839061] (-) TimerEvent: {}
+[160.923856] (go2_core) StderrLine: {'line': b'gmake[2]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe5\x88\xa0\xe9\x99\xa4\xe6\x96\x87\xe4\xbb\xb6\xe2\x80\x9cdriver\xe2\x80\x9d\n'}
+[160.929902] (go2_core) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/driver.dir/build.make:1322: driver] \xe4\xb8\xad\xe6\x96\xad\n'}
+[160.931689] (go2_core) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/driver.dir/all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[160.933291] (go2_core) StderrLine: {'line': b'gmake: *** [Makefile:146: all] \xe4\xb8\xad\xe6\x96\xad\n'}
+[160.939197] (-) TimerEvent: {}
+[160.990869] (go2_core) CommandEnded: {'returncode': -2}
+[161.026476] (go2_core) JobEnded: {'identifier': 'go2_core', 'rc': 'SIGINT'}
+[161.038241] (-) EventReactorShutdown: {}

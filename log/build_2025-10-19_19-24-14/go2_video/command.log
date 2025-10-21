@@ -1,0 +1,4 @@
+Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_video
+Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_video

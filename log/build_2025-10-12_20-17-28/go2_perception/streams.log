@@ -1,0 +1,88 @@
+[0.014s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/go2_ws_toolbox/src/go2_perception -DCMAKE_INSTALL_PREFIX=/home/robot/go2_ws_toolbox/install/go2_perception
+[0.076s] -- The C compiler identification is GNU 11.4.0
+[0.129s] -- The CXX compiler identification is GNU 11.4.0
+[0.136s] -- Detecting C compiler ABI info
+[0.186s] -- Detecting C compiler ABI info - done
+[0.190s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.190s] -- Detecting C compile features
+[0.190s] -- Detecting C compile features - done
+[0.193s] -- Detecting CXX compiler ABI info
+[0.251s] -- Detecting CXX compiler ABI info - done
+[0.256s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.256s] -- Detecting CXX compile features
+[0.256s] -- Detecting CXX compile features - done
+[0.258s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.448s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.503s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.509s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.517s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.526s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.540s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.582s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.585s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.604s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.615s] -- Looking for pthread.h
+[0.678s] -- Looking for pthread.h - found
+[0.678s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.733s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.733s] -- Found Threads: TRUE  
+[0.815s] -- Found message_filters: 4.3.8 (/opt/ros/humble/share/message_filters/cmake)
+[0.819s] -- Found rclcpp_components: 16.0.14 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.838s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.893s] -- Found tf2_sensor_msgs: 0.25.15 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[0.906s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.194s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.204s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.205s] -- Configured cppcheck include dirs: /home/robot/go2_ws_toolbox/src/go2_perception/include
+[1.206s] -- Configured cppcheck exclude dirs and/or files: 
+[1.213s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.214s] -- Configured cpplint exclude dirs and/or files: 
+[1.216s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.220s] -- Added test 'lint_cmake' to check CMake code style
+[1.223s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.232s] -- Added test 'uncrustify' to check C / C++ code style
+[1.232s] -- Configured uncrustify additional arguments: 
+[1.235s] -- Added test 'xmllint' to check XML markup files
+[1.243s] -- Configuring done
+[1.456s] -- Generating done
+[1.505s] -- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_perception
+[1.585s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robot/go2_ws_toolbox/src/go2_perception -DCMAKE_INSTALL_PREFIX=/home/robot/go2_ws_toolbox/install/go2_perception
+[1.595s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_perception -- -j16 -l16
+[1.646s] [ 50%] [32mBuilding CXX object CMakeFiles/cloud_accumulation.dir/src/cloud_accumulation.cpp.o[0m
+[1.646s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[1.646s] [ 50%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[5.736s] [ 66%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[5.827s] [ 66%] Built target pointcloud_to_laserscan_node
+[15.103s] [ 83%] [32m[1mLinking CXX executable cloud_accumulation[0m
+[15.708s] [ 83%] Built target cloud_accumulation
+[21.822s] [100%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[23.595s] [100%] Built target pointcloud_to_laserscan
+[23.663s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_perception -- -j16 -l16
+[23.671s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_perception': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_perception
+[23.718s] -- Install configuration: ""
+[23.719s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node
+[23.723s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/pointcloud_to_laserscan_node" to ""
+[23.724s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so
+[23.799s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/libpointcloud_to_laserscan.so" to ""
+[23.800s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation
+[23.823s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_perception/lib/go2_perception/cloud_accumulation" to ""
+[23.823s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch
+[23.824s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/launch/go2_pointcloud.launch.py
+[23.825s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/package_run_dependencies/go2_perception
+[23.827s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/parent_prefix_path/go2_perception
+[23.828s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.sh
+[23.829s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/ament_prefix_path.dsv
+[23.831s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.sh
+[23.832s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/environment/path.dsv
+[23.832s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.bash
+[23.833s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.sh
+[23.834s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.zsh
+[23.834s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/local_setup.dsv
+[23.835s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.dsv
+[23.836s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/packages/go2_perception
+[23.837s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/ament_index/resource_index/rclcpp_components/go2_perception
+[23.838s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig.cmake
+[23.839s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/cmake/go2_perceptionConfig-version.cmake
+[23.840s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_perception/share/go2_perception/package.xml
+[23.851s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_perception' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_perception

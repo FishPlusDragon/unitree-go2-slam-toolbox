@@ -1,0 +1,83 @@
+[0.197s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_description -- -j16 -l16
+[0.373s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.643s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.915s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.921s] -- Added test 'lint_cmake' to check CMake code style
+[0.925s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.946s] -- Added test 'xmllint' to check XML markup files
+[0.950s] -- Configuring done
+[0.970s] -- Generating done
+[0.982s] -- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_description
+[1.134s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_description -- -j16 -l16
+[1.144s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_description
+[1.188s] -- Install configuration: ""
+[1.188s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/launch
+[1.189s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/launch/display.launch.py
+[1.190s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf
+[1.190s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history
+[1.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112944.urdf
+[1.191s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115040.urdf
+[1.192s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113633.urdf
+[1.193s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112749.urdf
+[1.193s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115226.urdf
+[1.193s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115300.urdf
+[1.194s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193653.urdf
+[1.194s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193710.urdf
+[1.195s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112047.urdf
+[1.195s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115313.urdf
+[1.196s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193711.urdf
+[1.196s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114759.urdf
+[1.197s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113059.urdf
+[1.197s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113755.urdf
+[1.197s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115021.urdf
+[1.198s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905114819.urdf
+[1.200s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904182446.urdf
+[1.200s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115022.urdf
+[1.201s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193705.urdf
+[1.201s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112735.urdf
+[1.202s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112217.urdf
+[1.203s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113754.urdf
+[1.203s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193644.urdf
+[1.204s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112752.urdf
+[1.205s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113000.urdf
+[1.205s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113839.urdf
+[1.206s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905113840.urdf
+[1.207s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905115215.urdf
+[1.207s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230905112143.urdf
+[1.208s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904193628.urdf
+[1.209s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/.history/go2_description_20230904144240.urdf
+[1.209s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/go2_description.urdf
+[1.210s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/Amended_collision_model.png
+[1.210s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/urdf/Normal_collision_model.png
+[1.210s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae
+[1.211s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/hip.dae
+[1.211s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/calf_mirror.dae
+[1.211s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/thigh.dae
+[1.212s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/thigh_mirror.dae
+[1.212s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/calf.dae
+[1.212s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/base.dae
+[1.213s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/dae/foot.dae
+[1.213s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes
+[1.213s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/hip.dae
+[1.214s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/calf_mirror.dae
+[1.214s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/thigh.dae
+[1.214s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/thigh_mirror.dae
+[1.215s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/calf.dae
+[1.215s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/trunk.dae
+[1.215s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/meshes/foot.dae
+[1.216s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/ament_index/resource_index/package_run_dependencies/go2_description
+[1.216s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/ament_index/resource_index/parent_prefix_path/go2_description
+[1.216s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/ament_prefix_path.sh
+[1.217s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/ament_prefix_path.dsv
+[1.217s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/path.sh
+[1.217s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/environment/path.dsv
+[1.218s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.bash
+[1.218s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.sh
+[1.218s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.zsh
+[1.219s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/local_setup.dsv
+[1.219s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.dsv
+[1.219s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/ament_index/resource_index/packages/go2_description
+[1.220s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/cmake/go2_descriptionConfig.cmake
+[1.220s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/cmake/go2_descriptionConfig-version.cmake
+[1.220s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_description/share/go2_description/package.xml
+[1.233s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_description

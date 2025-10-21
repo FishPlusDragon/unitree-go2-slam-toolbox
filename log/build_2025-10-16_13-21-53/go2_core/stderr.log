@@ -1,0 +1,20 @@
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:[m[K In member function ‘[01m[Kvoid Go2Driver::pose_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:148:9:[m[K [01;31m[Kerror: [m[K‘[01m[K广播里程计坐标变换[m[K’ was not declared in this scope
+  148 |         [01;31m[K广播里程计坐标变换[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:151:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransform[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::transform[m[K’?
+  151 |         [01;31m[Ktransform[m[K.header.stamp = this->now();
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Kstd::transform[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/robot/go2_ws_toolbox/src/base/go2_core/src/driver.cpp:7[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:162:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::transform[m[K’ declared here
+  162 | [01;36m[Ktransform[m[K(_ExecutionPolicy&& __exec, _ForwardIterator1 __first1, _ForwardIterator1 __last1, _ForwardIterator2 __first2,
+      | [01;36m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/driver.dir/build.make:76：CMakeFiles/driver.dir/src/driver.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/driver.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target driver[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/driver.dir/src/driver.cpp.o[0m
+gmake[2]: *** [CMakeFiles/driver.dir/build.make:76: CMakeFiles/driver.dir/src/driver.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/driver.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

@@ -1,0 +1,27 @@
+[0.027s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_driver': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16
+[0.047s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.138s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.156s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.157s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.161s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.191s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.192s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.201s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.228s] -- Found unitree_go: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.243s] -- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.251s] -- Found tf2: 0.25.15 (/opt/ros/humble/share/tf2/cmake)
+[0.254s] -- Found tf2_ros: 0.25.15 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.297s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.310s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_target_dependencies/cmake/ament_target_dependencies.cmake:77 (message):
+[0.310s]   ament_target_dependencies() the passed package name 'tf2_geometry_msgs' was
+[0.310s]   not found before
+[0.310s] Call Stack (most recent call first):
+[0.310s]   CMakeLists.txt:51 (ament_target_dependencies)
+[0.310s] 
+[0.310s] [0m
+[0.311s] -- Configuring incomplete, errors occurred!
+[0.311s] See also "/home/robot/go2_ws_toolbox/build/go2_driver/CMakeFiles/CMakeOutput.log".
+[0.316s] gmake: *** [Makefile:349：cmake_check_build_system] 错误 1
+[0.318s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_driver' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_driver -- -j16 -l16

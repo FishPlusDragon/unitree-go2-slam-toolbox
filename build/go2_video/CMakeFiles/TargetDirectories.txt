@@ -1,0 +1,10 @@
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/uninstall.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/go2_video_uninstall.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/video.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/test.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/edit_cache.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/rebuild_cache.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/list_install_components.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/install.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/install/local.dir
+/home/robot/go2_ws_toolbox/build/go2_video/CMakeFiles/install/strip.dir

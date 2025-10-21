@@ -1,0 +1,16 @@
+/home/robot/go2_ws_toolbox/install/go2_video/lib/go2_video/video
+/home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/package_run_dependencies/go2_video
+/home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/parent_prefix_path/go2_video
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/ament_prefix_path.sh
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/ament_prefix_path.dsv
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/path.sh
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/path.dsv
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.bash
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.sh
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.zsh
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.dsv
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/package.dsv
+/home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/packages/go2_video
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/cmake/go2_videoConfig.cmake
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/cmake/go2_videoConfig-version.cmake
+/home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/package.xml

@@ -1,0 +1,26 @@
+[0.025s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target video[0m
+[0.073s] [ 50%] [32mBuilding CXX object CMakeFiles/video.dir/src/video.cpp.o[0m
+[6.740s] [100%] [32m[1mLinking CXX executable video[0m
+[7.366s] [100%] Built target video
+[7.376s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+[7.377s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_video
+[7.383s] -- Install configuration: ""
+[7.383s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/lib/go2_video/video
+[7.388s] -- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_video/lib/go2_video/video" to ""
+[7.388s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/package_run_dependencies/go2_video
+[7.388s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/parent_prefix_path/go2_video
+[7.388s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/ament_prefix_path.sh
+[7.388s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/ament_prefix_path.dsv
+[7.388s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/path.sh
+[7.388s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/path.dsv
+[7.388s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.bash
+[7.388s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.sh
+[7.388s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.zsh
+[7.389s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.dsv
+[7.389s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/package.dsv
+[7.389s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/packages/go2_video
+[7.389s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/cmake/go2_videoConfig.cmake
+[7.389s] -- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/cmake/go2_videoConfig-version.cmake
+[7.389s] -- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/package.xml
+[7.391s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robot/go2_ws_toolbox/build/go2_video

@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target video[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/video.dir/src/video.cpp.o[0m
+[100%] [32m[1mLinking CXX executable video[0m
+[100%] Built target video
+-- Install configuration: ""
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/lib/go2_video/video
+-- Set runtime path of "/home/robot/go2_ws_toolbox/install/go2_video/lib/go2_video/video" to ""
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/package_run_dependencies/go2_video
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/parent_prefix_path/go2_video
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/ament_prefix_path.sh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/path.sh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/environment/path.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.bash
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.sh
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.zsh
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/local_setup.dsv
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/package.dsv
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/ament_index/resource_index/packages/go2_video
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/cmake/go2_videoConfig.cmake
+-- Up-to-date: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/cmake/go2_videoConfig-version.cmake
+-- Installing: /home/robot/go2_ws_toolbox/install/go2_video/share/go2_video/package.xml

@@ -1,0 +1,61 @@
+[0.025s] Invoking command in '/home/robot/go2_ws_toolbox/build/go2_video': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
+[0.041s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.136s] -- Found rclcpp: 16.0.14 (/opt/ros/humble/share/rclcpp/cmake)
+[0.155s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.156s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.160s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.166s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.173s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.193s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.194s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/home/robot/unitree_ros2/cyclonedds_ws/install/rmw_cyclonedds_cpp/share/rmw_cyclonedds_cpp/cmake)
+[0.202s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.227s] -- Found unitree_go: 0.0.0 (/home/robot/unitree_ros2/cyclonedds_ws/install/unitree_go/share/unitree_go/cmake)
+[0.241s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.250s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.258s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.304s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.304s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robot/go2_ws_toolbox/src/base/go2_video/include>
+[0.304s] -- Configured cppcheck exclude dirs and/or files: 
+[0.305s] -- Added test 'lint_cmake' to check CMake code style
+[0.305s] -- Added test 'uncrustify' to check C / C++ code style
+[0.305s] -- Configured uncrustify additional arguments: 
+[0.306s] -- Added test 'xmllint' to check XML markup files
+[0.306s] -- Configuring done
+[0.315s] -- Generating done
+[0.318s] -- Build files have been written to: /home/robot/go2_ws_toolbox/build/go2_video
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target video[0m
+[0.358s] [ 50%] [32mBuilding CXX object CMakeFiles/video.dir/src/video.cpp.o[0m
+[2.328s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:[m[K In member function ‘[01m[Kvoid VideoConverter::videoCallback(unitree_go::msg::Go2FrontVideoData_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.328s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:40:21:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcv::VideoCapture::open(cv::Mat&, cv::VideoCaptureAPIs)[m[K’
+[2.328s]    40 |       if (![01;31m[Kcap_.open(video_mat, cv::CAP_FFMPEG)[m[K) {
+[2.328s]       |            [01;31m[K~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.328s] In file included from [01m[K/usr/include/opencv4/opencv2/highgui.hpp:51[m[K,
+[2.328s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:68[m[K,
+[2.328s]                  from [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:5[m[K:
+[2.328s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:739:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(const String&, int)[m[K’
+[2.328s]   739 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(const String& filename, int apiPreference = CAP_ANY);
+[2.328s]       |                          [01;36m[K^~~~[m[K
+[2.328s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:739:45:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kconst String&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[2.328s]   739 |     CV_WRAP virtual bool open([01;36m[Kconst String& filename[m[K, int apiPreference = CAP_ANY);
+[2.328s]       |                               [01;36m[K~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.328s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:752:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(const String&, int, const std::vector<int>&)[m[K’
+[2.329s]   752 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(const String& filename, int apiPreference, const std::vector<int>& params);
+[2.329s]       |                          [01;36m[K^~~~[m[K
+[2.329s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:752:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[2.329s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:763:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(int, int)[m[K’
+[2.329s]   763 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(int index, int apiPreference = CAP_ANY);
+[2.329s]       |                          [01;36m[K^~~~[m[K
+[2.329s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:763:35:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kcv::Mat[m[K’ to ‘[01m[Kint[m[K’
+[2.329s]   763 |     CV_WRAP virtual bool open([01;36m[Kint index[m[K, int apiPreference = CAP_ANY);
+[2.329s]       |                               [01;36m[K~~~~^~~~~[m[K
+[2.329s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:776:26:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvirtual bool cv::VideoCapture::open(int, int, const std::vector<int>&)[m[K’
+[2.329s]   776 |     CV_WRAP virtual bool [01;36m[Kopen[m[K(int index, int apiPreference, const std::vector<int>& params);
+[2.329s]       |                          [01;36m[K^~~~[m[K
+[2.329s] [01m[K/usr/include/opencv4/opencv2/videoio.hpp:776:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[2.329s] [01m[K/home/robot/go2_ws_toolbox/src/base/go2_video/src/video.cpp:51:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct unitree_go::msg::Go2FrontVideoData_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct unitree_go::msg::Go2FrontVideoData_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kheader[m[K’
+[2.329s]    51 |         msg->[01;31m[Kheader[m[K,  // 使用原始时间戳（若msg无header，可替换为this->now()）
+[2.329s]       |              [01;31m[K^~~~~~[m[K
+[4.254s] gmake[2]: *** [CMakeFiles/video.dir/build.make:76：CMakeFiles/video.dir/src/video.cpp.o] 错误 1
+[4.254s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/video.dir/all] 错误 2
+[4.255s] gmake: *** [Makefile:146：all] 错误 2
+[4.259s] Invoked command in '/home/robot/go2_ws_toolbox/build/go2_video' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robot/go2_ws_toolbox/build/go2_video -- -j16 -l16
