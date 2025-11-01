@@ -120,8 +120,7 @@ private:
         odom.pose.pose.orientation.y = msg->pose.orientation.y;    
         odom.pose.pose.orientation.z = msg->pose.orientation.z;    
         odom.pose.pose.orientation.w = msg->pose.orientation.w;    
-        odom_pub_->publish(odom);    
-        odom_published_ = true;  
+        odom_pub_->publish(odom);     
 };
 
 int main(int argc, char ** argv)
