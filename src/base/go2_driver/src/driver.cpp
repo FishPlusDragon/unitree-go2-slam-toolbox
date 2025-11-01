@@ -17,7 +17,7 @@ using namespace std::placeholders;
 class Driver : public rclcpp::Node
 {
 public:
-    Driver() : Node("driver")
+    Driver() : Node("driver")，body_height_（0.30） 
     {
       RCLCPP_INFO(this->get_logger(), "Driver节点创建, 用于发布里程计消息，坐标变换和关节状态信息");
 
@@ -93,9 +93,11 @@ private:
     }
 
      void pose_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg) // 这里拿的是robot_pose， 是机器狗雷达的位置，所以需要进行一些换算变成base_footprint的位置
-    {  
+    {   
+        rclcpp::Time now = this->now();
+        
         geometry_msgs::msg::TransformStamped transform;
-        transform.header.stamp = this->get_clock()->now();  
+        transform.header.stamp = now;  
         transform.header.frame_id = "odom";
         transform.child_frame_id = "base_footprint";  
         transform.transform.translation.x = msg->pose.position.x - 0.28945;  
@@ -107,23 +109,19 @@ private:
         transform.transform.rotation.w = msg->pose.orientation.w;  
         tf_bro_->sendTransform(transform);  
 
-        if (!odom_published_) 
-        {    
-            nav_msgs::msg::Odometry odom;    
-            odom.header.stamp = this->get_clock()->now();    
-            odom.header.frame_id = "odom";    
-            odom.child_frame_id = "base_footprint";    
-            odom.pose.pose.position.x = transform.transform.translation.x;    
-            odom.pose.pose.position.y = msg->pose.position.y;     
-            odom.pose.pose.position.z = transform.transform.translation.z;    
-            odom.pose.pose.orientation.x = msg->pose.orientation.x;    
-            odom.pose.pose.orientation.y = msg->pose.orientation.y;    
-            odom.pose.pose.orientation.z = msg->pose.orientation.z;    
-            odom.pose.pose.orientation.w = msg->pose.orientation.w;    
-            odom_pub_->publish(odom);    
-            odom_published_ = true;  
-        }
-    }
+        nav_msgs::msg::Odometry odom;    
+        odom.header.stamp = now;    
+        odom.header.frame_id = "odom";    
+        odom.child_frame_id = "base_footprint";    
+        odom.pose.pose.position.x = transform.transform.translation.x;    
+        odom.pose.pose.position.y = msg->pose.position.y;     
+        odom.pose.pose.position.z = transform.transform.translation.z;    
+        odom.pose.pose.orientation.x = msg->pose.orientation.x;    
+        odom.pose.pose.orientation.y = msg->pose.orientation.y;    
+        odom.pose.pose.orientation.z = msg->pose.orientation.z;    
+        odom.pose.pose.orientation.w = msg->pose.orientation.w;    
+        odom_pub_->publish(odom);    
+        odom_published_ = true;  
 };
 
 int main(int argc, char ** argv)
