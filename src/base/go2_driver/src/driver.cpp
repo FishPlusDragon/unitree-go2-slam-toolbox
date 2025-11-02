@@ -3,7 +3,6 @@
 #include "nav_msgs/msg/odometry.hpp"
 #include "unitree_go/msg/sport_mode_state.hpp"
 #include <geometry_msgs/msg/pose_stamped.hpp>
-#include "unitree_go/msg/sport_mode_state.hpp"
 // 发布坐标变换的头文件
 #include "geometry_msgs/msg/transform_stamped.hpp"
 #include "tf2_ros/transform_broadcaster.h"
@@ -17,15 +16,15 @@ using namespace std::placeholders;
 class Driver : public rclcpp::Node
 {
 public:
-    Driver() : Node("driver")，body_height_（0.30） 
+    Driver() : Node("driver"), body_height_(0.30) 
     {
       RCLCPP_INFO(this->get_logger(), "Driver节点创建, 用于发布里程计消息，坐标变换和关节状态信息");
 
       // 声明参数
-      this->declare_parameter("publish_tf", true);
+      // this->declare_parameter("publish_tf", true);
 
       // 获取参数
-      publish_tf = this->get_parameter("publish_tf").as_bool();
+      // publish_tf = this->get_parameter("publish_tf").as_bool();
 
       //坐标变换广播器
       tf_bro_ = std::make_unique<tf2_ros::TransformBroadcaster>(*this);
@@ -58,7 +57,7 @@ private:
     // 创建订阅者，订阅机器狗高层运动状态
     rclcpp::Subscription<unitree_go::msg::SportModeState>::SharedPtr sub_;
     
-    bool publish_tf, odom_published_;
+    // bool publish_tf, odom_published_;
     double body_height_;
 
     void state_cb(const unitree_go::msg::SportModeState::SharedPtr state_msg)
@@ -120,7 +119,8 @@ private:
         odom.pose.pose.orientation.y = msg->pose.orientation.y;    
         odom.pose.pose.orientation.z = msg->pose.orientation.z;    
         odom.pose.pose.orientation.w = msg->pose.orientation.w;    
-        odom_pub_->publish(odom);     
+        odom_pub_->publish(odom);   
+    }
 };
 
 int main(int argc, char ** argv)
